@@ -1,0 +1,3818 @@
+Delivery_8wPP:
+  class: factor
+  '1': Spontaneous
+  '2': Medication
+  '3': Intervention
+Episiotomy_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Rupture_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Spinalpuncture_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+  '3': Too late
+Painkiller_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Planneddeliv_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Complaintspreg_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Illness_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Checkup_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Sexdetermination_12:
+  class: factor
+  '1': 'Yes'
+  '2': 'No'
+  '3': Maybe
+  '4': I don't know
+Sexpreference_12:
+  class: factor
+  '1': Boy
+  '2': Girl
+  '3': No preference
+Pregnancyloss_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Prevdelivery_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Samepartner_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Recentmiscarriage_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Problemsprevpreg_NA_12:
+  class: factor
+  '1': Applicable
+  '2': Not applicable
+Problemsprevpreg_diabetes_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Problemsprevpreg_hypertension_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Problemsprevpreg_preeclampsia_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Problemsprevpreg_prematuredelivery_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Problemsprevpreg_other_12:
+  class: factor
+  '1': 'No'
+  '2': 'Other, please specify:'
+Problemsprevdeliv_12:
+  class: factor
+  '1': N/A
+  '2': 'No'
+  '3': 'Yes'
+Plannedpreg_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Locationdelivery_12:
+  class: factor
+  '1': At home
+  '2': Hospital
+  '3': I don't know yet
+Problemspreg_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Problemspreg_20:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Problemspreg_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Problemspreg_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Painmanagement_12:
+  class: factor
+  '1': 'Yes'
+  '2': 'No'
+Painmanagementencoding_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Gynaecologist_20:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Gynaecologist_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Gynaecologist_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Education_12:
+  class: ordered
+  '1': Primary school
+  '2': Secondary / high school
+  '3': HAVO / VWO
+  '4': Vocational education
+  '5': University
+Genderpartner_12:
+  class: factor
+  '1': Male
+  '2': Female
+Maritalstatus_12:
+  class: factor
+  '1': Relationship
+  '2': Other
+Maritalstatus_6mPP:
+  class: factor
+  '1': Relationship
+  '2': Other
+Maritalstatus_1yPP:
+  class: factor
+  '1': Relationship
+  '2': Other
+Maritalstatus_1y6mPP:
+  class: factor
+  '1': Relationship
+  '2': Other
+Maritalstatus_2yPP:
+  class: factor
+  '1': Relationship
+  '2': Other
+Maritalstatus_2y6mPP:
+  class: factor
+  '1': Relationship
+  '2': Other
+Maritalstatus_3yPP:
+  class: factor
+  '1': Relationship
+  '2': Other
+Maritalstatus_3y6mPP:
+  class: factor
+  '1': Relationship
+  '2': Other
+Maritalstatus_4yPP:
+  class: factor
+  '1': Relationship
+  '2': Other
+Maritalstatus_4y6mPP:
+  class: factor
+  '1': Relationship
+  '2': Other
+Maritalstatus_5yPP:
+  class: factor
+  '1': Relationship
+  '2': Other
+Partner_20:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Partner_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Partner_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Population_12:
+  class: factor
+  '1': Dutch
+  '2': Other
+BFI_2S_2_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_4_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_5_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_6_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_9_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_11_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_12_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_13_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_15_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_16_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_18_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_22_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_23_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_25_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_29_28:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither disagree nor agree
+  '4': Agree
+  '5': Strongly agree
+BFI_2S_1_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_3_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_7_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_8_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_10_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_14_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_17_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_19_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_20_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_21_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_24_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_26_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_27_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_28_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+BFI_2S_30_28:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither disagree nor agree
+  '4': Disagree
+  '5': Strongly disagree
+DS14_2_12:
+  class: ordered
+  '1': 'False'
+  '2': Rather false
+  '3': Neutral
+  '4': Rather true
+  '5': 'True'
+DS14_4_12:
+  class: ordered
+  '1': 'False'
+  '2': Rather false
+  '3': Neutral
+  '4': Rather true
+  '5': 'True'
+DS14_5_12:
+  class: ordered
+  '1': 'False'
+  '2': Rather false
+  '3': Neutral
+  '4': Rather true
+  '5': 'True'
+DS14_6_12:
+  class: ordered
+  '1': 'False'
+  '2': Rather false
+  '3': Neutral
+  '4': Rather true
+  '5': 'True'
+DS14_7_12:
+  class: ordered
+  '1': 'False'
+  '2': Rather false
+  '3': Neutral
+  '4': Rather true
+  '5': 'True'
+DS14_8_12:
+  class: ordered
+  '1': 'False'
+  '2': Rather false
+  '3': Neutral
+  '4': Rather true
+  '5': 'True'
+DS14_9_12:
+  class: ordered
+  '1': 'False'
+  '2': Rather false
+  '3': Neutral
+  '4': Rather true
+  '5': 'True'
+DS14_10_12:
+  class: ordered
+  '1': 'False'
+  '2': Rather false
+  '3': Neutral
+  '4': Rather true
+  '5': 'True'
+DS14_11_12:
+  class: ordered
+  '1': 'False'
+  '2': Rather false
+  '3': Neutral
+  '4': Rather true
+  '5': 'True'
+DS14_12_12:
+  class: ordered
+  '1': 'False'
+  '2': Rather false
+  '3': Neutral
+  '4': Rather true
+  '5': 'True'
+DS14_13_12:
+  class: ordered
+  '1': 'False'
+  '2': Rather false
+  '3': Neutral
+  '4': Rather true
+  '5': 'True'
+DS14_14_12:
+  class: ordered
+  '1': 'False'
+  '2': Rather false
+  '3': Neutral
+  '4': Rather true
+  '5': 'True'
+DS14_1_12:
+  class: ordered
+  '1': 'True'
+  '2': Rather true
+  '3': Neutral
+  '4': Rather false
+  '5': 'False'
+DS14_3_12:
+  class: ordered
+  '1': 'True'
+  '2': Rather true
+  '3': Neutral
+  '4': Rather false
+  '5': 'False'
+OCPD_SC_1_8wPP:
+  class: ordered
+  '1': Nooit
+  '2': Soms
+  '3': Vaak
+  '4': Altijd
+OCPD_SC_2_8wPP:
+  class: ordered
+  '1': Nooit
+  '2': Soms
+  '3': Vaak
+  '4': Altijd
+OCPD_SC_3_8wPP:
+  class: ordered
+  '1': Nooit
+  '2': Soms
+  '3': Vaak
+  '4': Altijd
+OCPD_SC_4_8wPP:
+  class: ordered
+  '1': Nooit
+  '2': Soms
+  '3': Vaak
+  '4': Altijd
+OCPD_SC_5_8wPP:
+  class: ordered
+  '1': Nooit
+  '2': Soms
+  '3': Vaak
+  '4': Altijd
+OCPD_SC_6_8wPP:
+  class: ordered
+  '1': Nooit
+  '2': Soms
+  '3': Vaak
+  '4': Altijd
+OCPD_SC_7_8wPP:
+  class: ordered
+  '1': Nooit
+  '2': Soms
+  '3': Vaak
+  '4': Altijd
+Perfectionism_push_20:
+  class: ordered
+  '1': Never
+  '2': Sometimes
+  '3': Frequently
+  '4': Always
+Perfectionism_standards_20:
+  class: ordered
+  '1': Never
+  '2': Sometimes
+  '3': Frequently
+  '4': Always
+Perfectionism_failure_20:
+  class: ordered
+  '1': Never
+  '2': Sometimes
+  '3': Frequently
+  '4': Always
+Perfectionism_judge_20:
+  class: ordered
+  '1': Never
+  '2': Sometimes
+  '3': Frequently
+  '4': Always
+Perfectionism_striving_20:
+  class: ordered
+  '1': Never
+  '2': Sometimes
+  '3': Frequently
+  '4': Always
+Perfectionism_careful_20:
+  class: ordered
+  '1': Never
+  '2': Sometimes
+  '3': Frequently
+  '4': Always
+Perfectionism_ambition_20:
+  class: ordered
+  '1': Never
+  '2': Sometimes
+  '3': Frequently
+  '4': Always
+Historydepression_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+EDS_1_12:
+  class: ordered
+  '1': As much as I always could
+  '2': Not quite so much now
+  '3': Definitely not so much now
+  '4': Not at all
+EDS_2_12:
+  class: ordered
+  '1': As much as I ever did
+  '2': Rather less than I used to
+  '3': Definitely less that I used to
+  '4': Hardly at all
+EDS_4_12:
+  class: ordered
+  '1': No, not at all
+  '2': Hardly ever
+  '3': Yes, sometimes
+  '4': Yes, very often
+EDS_3_12:
+  class: ordered
+  '1': No, never
+  '2': Not very often
+  '3': Yes, some of the time
+  '4': Yes, most of the time
+EDS_5_12:
+  class: ordered
+  '1': No, not at all
+  '2': No, not much
+  '3': Yes, sometimes
+  '4': Yes, quite a lot
+EDS_6_12:
+  class: ordered
+  '1': No, I have been coping as well as ever
+  '2': No, most of the time I have coped quite well
+  '3': Yes, sometimes I haven't been coping as well as usual
+  '4': Yes, most of the time I haven't been able to cope at all
+EDS_7_12:
+  class: ordered
+  '1': No, not at all
+  '2': Not very often
+  '3': Yes, some of the time
+  '4': Yes, most of the time
+EDS_8_12:
+  class: ordered
+  '1': No, not at all
+  '2': Not very often
+  '3': Yes, some of the time
+  '4': Yes, most of the time
+EDS_9_12:
+  class: ordered
+  '1': No, never
+  '2': Only occasionally
+  '3': Yes, quite often
+  '4': Yes, most of the time
+EDS_10_12:
+  class: ordered
+  '1': Never
+  '2': Hardly ever
+  '3': Sometimes
+  '4': Yes, quite often
+Historyanxiety_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+SCL90_1_12:
+  class: ordered
+  '1': Not at all
+  '2': A little bit
+  '3': Moderately
+  '4': Quite a bit
+  '5': Extremely
+SCL90_2_12:
+  class: ordered
+  '1': Not at all
+  '2': A little bit
+  '3': Moderately
+  '4': Quite a bit
+  '5': Extremely
+SCL90_3_12:
+  class: ordered
+  '1': Not at all
+  '2': A little bit
+  '3': Moderately
+  '4': Quite a bit
+  '5': Extremely
+SCL90_4_12:
+  class: ordered
+  '1': Not at all
+  '2': A little bit
+  '3': Moderately
+  '4': Quite a bit
+  '5': Extremely
+SCL90_5_12:
+  class: ordered
+  '1': Not at all
+  '2': A little bit
+  '3': Moderately
+  '4': Quite a bit
+  '5': Extremely
+SCL90_6_12:
+  class: ordered
+  '1': Not at all
+  '2': A little bit
+  '3': Moderately
+  '4': Quite a bit
+  '5': Extremely
+SCL90_7_12:
+  class: ordered
+  '1': Not at all
+  '2': A little bit
+  '3': Moderately
+  '4': Quite a bit
+  '5': Extremely
+SCL90_8_12:
+  class: ordered
+  '1': Not at all
+  '2': A little bit
+  '3': Moderately
+  '4': Quite a bit
+  '5': Extremely
+SCL90_9_12:
+  class: ordered
+  '1': Not at all
+  '2': A little bit
+  '3': Moderately
+  '4': Quite a bit
+  '5': Extremely
+SCL90_10_12:
+  class: ordered
+  '1': Not at all
+  '2': A little bit
+  '3': Moderately
+  '4': Quite a bit
+  '5': Extremely
+TPDS_NA_1_12:
+  class: ordered
+  '1': Rarely or never
+  '2': Now and then
+  '3': Fairly often
+  '4': Very often
+TPDS_NA_2_12:
+  class: ordered
+  '1': Rarely or never
+  '2': Now and then
+  '3': Fairly often
+  '4': Very often
+TPDS_NA_3_12:
+  class: ordered
+  '1': Rarely or never
+  '2': Now and then
+  '3': Fairly often
+  '4': Very often
+TPDS_NA_4_12:
+  class: ordered
+  '1': Rarely or never
+  '2': Now and then
+  '3': Fairly often
+  '4': Very often
+TPDS_NA_5_12:
+  class: ordered
+  '1': Rarely or never
+  '2': Now and then
+  '3': Fairly often
+  '4': Very often
+TPDS_NA_6_12:
+  class: ordered
+  '1': Rarely or never
+  '2': Now and then
+  '3': Fairly often
+  '4': Very often
+TPDS_NA_7_12:
+  class: ordered
+  '1': Rarely or never
+  '2': Now and then
+  '3': Fairly often
+  '4': Very often
+TPDS_NA_8_12:
+  class: ordered
+  '1': Rarely or never
+  '2': Now and then
+  '3': Fairly often
+  '4': Very often
+TPDS_NA_9_12:
+  class: ordered
+  '1': Rarely or never
+  '2': Now and then
+  '3': Fairly often
+  '4': Very often
+TPDS_NA_10_12:
+  class: ordered
+  '1': Rarely or never
+  '2': Now and then
+  '3': Fairly often
+  '4': Very often
+TPDS_PI_1_12:
+  class: ordered
+  '1': Very often
+  '2': Fairly often
+  '3': Now and then
+  '4': Rarely or never
+TPDS_PI_2_12:
+  class: ordered
+  '1': Very often
+  '2': Fairly often
+  '3': Now and then
+  '4': Rarely or never
+TPDS_PI_3_12:
+  class: ordered
+  '1': Very often
+  '2': Fairly often
+  '3': Now and then
+  '4': Rarely or never
+TPDS_PI_4_12:
+  class: ordered
+  '1': Very often
+  '2': Fairly often
+  '3': Now and then
+  '4': Rarely or never
+DERS16_1_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_2_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_3_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_4_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_5_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_6_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_7_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_8_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_9_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_10_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_11_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_12_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_13_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_14_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_15_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+DERS16_16_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': About half the time
+  '4': Most of the time
+  '5': Almost always
+Treatment_12:
+  class: factor
+  '1': n/a
+  '2': 'No'
+  '3': 'Yes'
+BSMAS_1_12:
+  class: ordered
+  '1': Very rarely
+  '2': Rarely
+  '3': Sometimes
+  '4': Often
+  '5': Very often
+BSMAS_2_12:
+  class: ordered
+  '1': Very rarely
+  '2': Rarely
+  '3': Sometimes
+  '4': Often
+  '5': Very often
+BSMAS_3_12:
+  class: ordered
+  '1': Very rarely
+  '2': Rarely
+  '3': Sometimes
+  '4': Often
+  '5': Very often
+BSMAS_4_12:
+  class: ordered
+  '1': Very rarely
+  '2': Rarely
+  '3': Sometimes
+  '4': Often
+  '5': Very often
+BSMAS_5_12:
+  class: ordered
+  '1': Very rarely
+  '2': Rarely
+  '3': Sometimes
+  '4': Often
+  '5': Very often
+BSMAS_6_12:
+  class: ordered
+  '1': Very rarely
+  '2': Rarely
+  '3': Sometimes
+  '4': Often
+  '5': Very often
+ECR_SF_1_8wPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Slightly disagree
+  '4': Neutral
+  '5': Slightly agree
+  '6': Agree
+  '7': Strongly agree
+ECR_SF_2_8wPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Slightly disagree
+  '4': Neutral
+  '5': Slightly agree
+  '6': Agree
+  '7': Strongly agree
+ECR_SF_3_8wPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Slightly disagree
+  '4': Neutral
+  '5': Slightly agree
+  '6': Agree
+  '7': Strongly agree
+ECR_SF_4_8wPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Slightly disagree
+  '4': Neutral
+  '5': Slightly agree
+  '6': Agree
+  '7': Strongly agree
+ECR_SF_5_8wPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Slightly disagree
+  '4': Neutral
+  '5': Slightly agree
+  '6': Agree
+ECR_SF_6_8wPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Slightly disagree
+  '4': Neutral
+  '5': Slightly agree
+  '6': Agree
+  '7': Strongly agree
+ECR_SF_8_8wPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Slightly disagree
+  '4': Neutral
+  '5': Slightly agree
+  '6': Agree
+  '7': Strongly agree
+ECR_SF_10_8wPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Slightly disagree
+  '4': Neutral
+  '5': Slightly agree
+  '6': Agree
+  '7': Strongly agree
+ECR_SF_7_8wPP:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Slightly agree
+  '4': Neutral
+  '5': Slightly disagree
+  '6': Disagree
+  '7': Strongly disagree
+ECR_SF_9_8wPP:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Slightly agree
+  '4': Neutral
+  '5': Slightly disagree
+  '6': Disagree
+  '7': Strongly disagree
+ECR_SF_11_8wPP:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Slightly agree
+  '4': Neutral
+  '5': Slightly disagree
+  '6': Disagree
+  '7': Strongly disagree
+ECR_SF_12_8wPP:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Slightly agree
+  '4': Neutral
+  '5': Slightly disagree
+  '6': Disagree
+  '7': Strongly disagree
+OBVL_4_8wPP:
+  class: ordered
+  '1': "Not true\t"
+  '2': "Somewhat true\t"
+  '3': "Quite true\t"
+  '4': Very true
+OBVL_8_8wPP:
+  class: ordered
+  '1': "Not true\t"
+  '2': "Somewhat true\t"
+  '3': "Quite true\t"
+  '4': Very true
+OBVL_12_8wPP:
+  class: ordered
+  '1': "Not true\t"
+  '2': "Somewhat true\t"
+  '3': "Quite true\t"
+  '4': Very true
+OBVL_16_8wPP:
+  class: ordered
+  '1': "Not true\t"
+  '2': "Somewhat true\t"
+  '3': "Quite true\t"
+  '4': Very true
+OBVL_20_8wPP:
+  class: ordered
+  '1': "Not true\t"
+  '2': "Somewhat true\t"
+  '3': "Quite true\t"
+  '4': Very true
+OBVL_24_8wPP:
+  class: ordered
+  '1': "Not true\t"
+  '2': "Somewhat true\t"
+  '3': "Quite true\t"
+  '4': Very true
+OBVL_1_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+OBVL_2_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+OBVL_5_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+OBVL_6_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+OBVL_9_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+OBVL_10_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+OBVL_13_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+OBVL_14_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+OBVL_17_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+OBVL_18_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+OBVL_21_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+OBVL_22_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+OBVL_25_8wPP:
+  class: ordered
+  '1': Very true
+  '2': "Quite true\t"
+  '3': "Somewhat true\t"
+  '4': "Not true\t"
+COVID19_PPQ_3_12:
+  class: ordered
+  '1': Completely disagree
+  '2': Disagree
+  '3': Agree
+  '4': Fully agree
+COVID19_PPQ_4_12:
+  class: ordered
+  '1': Completely disagree
+  '2': Disagree
+  '3': Agree
+  '4': Fully agree
+COVID19_PPQ_2_12:
+  class: ordered
+  '1': Completely disagree
+  '2': Disagree
+  '3': Agree
+  '4': Fully agree
+COVID19_PPQ_8_12:
+  class: ordered
+  '1': Completely disagree
+  '2': Disagree
+  '3': Agree
+  '4': Fully agree
+COVID19_PPQ_5_12:
+  class: ordered
+  '1': Completely disagree
+  '2': Disagree
+  '3': Agree
+  '4': Fully agree
+COVID19_PPQ_10_12:
+  class: ordered
+  '1': Completely disagree
+  '2': Disagree
+  '3': Agree
+  '4': Fully agree
+COVID19_PPQ_12_12:
+  class: ordered
+  '1': Completely disagree
+  '2': Disagree
+  '3': Agree
+  '4': Fully agree
+COVID19_PPQ_14_12:
+  class: ordered
+  '1': Completely disagree
+  '2': Disagree
+  '3': Agree
+  '4': Fully agree
+COVID19_PPQ_9_12:
+  class: ordered
+  '1': Completely disagree
+  '2': Disagree
+  '3': Agree
+  '4': Fully agree
+COVID19_PPQ_1_12:
+  class: ordered
+  '1': Helemaal mee oneens
+  '2': Mee oneens
+  '3': Mee eens
+  '4': Helemaal mee eens
+COVID19_PPQ_6_12:
+  class: ordered
+  '1': Helemaal mee oneens
+  '2': Mee oneens
+  '3': Mee eens
+  '4': Helemaal mee eens
+COVID19_PPQ_7_12:
+  class: ordered
+  '1': Helemaal mee oneens
+  '2': Mee oneens
+  '3': Mee eens
+  '4': Helemaal mee eens
+COVID19_PPQ_11_12:
+  class: ordered
+  '1': Helemaal mee oneens
+  '2': Mee oneens
+  '3': Mee eens
+  '4': Helemaal mee eens
+COVID19_PPQ_13_12:
+  class: ordered
+  '1': Helemaal mee oneens
+  '2': Mee oneens
+  '3': Mee eens
+  '4': Helemaal mee eens
+COVID19_PPQ_15_12:
+  class: ordered
+  '1': Helemaal mee oneens
+  '2': Mee oneens
+  '3': Mee eens
+  '4': Helemaal mee eens
+Complaints_1_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_2_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_3_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_4_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_5_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_6_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_7_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_8_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_9_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_10_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_11_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_12_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_13_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_14_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_15_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_16_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_17_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_18_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_19_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_20_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_21_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_22_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Complaints_23_12:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Absence_illness_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Breadwinner_12:
+  class: factor
+  '1': Myself
+  '2': My partner
+  '3': 'Other, namely:'
+Childcare_6mPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Compressedwork_6mPP:
+  class: factor
+  '1': 'No'
+  '2': Yes, me
+  '3': Yes, partner
+  '4': Yes, both
+Flexiblehours_6mPP:
+  class: factor
+  '1': 'No'
+  '2': Yes, me
+  '3': Yes, partner
+  '4': Yes, both
+FSSB_SF_1_6mPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither agree nor disagree
+  '4': Agree
+  '5': Strongly agree
+  '6': Not applicable, I do not have a supervisor
+FSSB_SF_2_6mPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither agree nor disagree
+  '4': Agree
+  '5': Strongly agree
+  '6': Not applicable, I do not have a supervisor
+FSSB_SF_3_6mPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither agree nor disagree
+  '4': Agree
+  '5': Strongly agree
+  '6': Not applicable, I do not have a supervisor
+FSSB_SF_4_6mPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither agree nor disagree
+  '4': Agree
+  '5': Strongly agree
+  '6': Not applicable, I do not have a supervisor
+Hoursworkpartner_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Hoursjobpartner_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+IWPQ_TP1_12:
+  class: ordered
+  '1': Seldom
+  '2': Sometimes
+  '3': Frequently
+  '4': Often
+  '5': Always
+IWPQ_TP4_12:
+  class: ordered
+  '1': Seldom
+  '2': Sometimes
+  '3': Frequently
+  '4': Often
+  '5': Always
+IWPQ_TP6_12:
+  class: ordered
+  '1': Seldom
+  '2': Sometimes
+  '3': Frequently
+  '4': Often
+  '5': Always
+IWPQ_CP2_12:
+  class: ordered
+  '1': Seldom
+  '2': Sometimes
+  '3': Frequently
+  '4': Often
+  '5': Always
+IWPQ_CP1_12:
+  class: ordered
+  '1': Seldom
+  '2': Sometimes
+  '3': Frequently
+  '4': Often
+  '5': Always
+IWPQ_CP9_12:
+  class: ordered
+  '1': Seldom
+  '2': Sometimes
+  '3': Frequently
+  '4': Often
+  '5': Always
+Organization_Support_1_6mPP:
+  class: ordered
+  '1': Niet van toepassing
+  '2': Helemaal oneens
+  '3': Oneens
+  '4': Neutraal
+  '5': Eens
+  '6': Helemaal mee eens
+Organization_Support_2_6mPP:
+  class: ordered
+  '1': Niet van toepassing
+  '2': Helemaal oneens
+  '3': Oneens
+  '4': Neutraal
+  '5': Eens
+  '6': Helemaal mee eens
+Organization_Support_3_6mPP:
+  class: ordered
+  '1': Niet van toepassing
+  '2': Helemaal oneens
+  '3': Oneens
+  '4': Neutraal
+  '5': Eens
+  '6': Helemaal mee eens
+Organization_Support_7_6mPP:
+  class: ordered
+  '1': Niet van toepassing
+  '2': Helemaal oneens
+  '3': Oneens
+  '4': Neutraal
+  '5': Eens
+  '6': Helemaal mee eens
+Organization_Support_8_6mPP:
+  class: ordered
+  '1': Niet van toepassing
+  '2': Helemaal oneens
+  '3': Oneens
+  '4': Neutraal
+  '5': Eens
+  '6': Helemaal mee eens
+Organization_Hindrance_2_6mPP:
+  class: ordered
+  '1': Niet van toepassing
+  '2': Helemaal oneens
+  '3': Oneens
+  '4': Neutraal
+  '5': Eens
+  '6': Helemaal mee eens
+Organization_Hindrance_1_6mPP:
+  class: ordered
+  '1': Niet van toepassing
+  '2': Helemaal oneens
+  '3': Oneens
+  '4': Neutraal
+  '5': Eens
+  '6': Helemaal mee eens
+Organization_Hindrance_3_6mPP:
+  class: ordered
+  '1': Niet van toepassing
+  '2': Helemaal oneens
+  '3': Oneens
+  '4': Neutraal
+  '5': Eens
+  '6': Helemaal mee eens
+Organization_Hindrance_4_6mPP:
+  class: ordered
+  '1': Niet van toepassing
+  '2': Helemaal oneens
+  '3': Oneens
+  '4': Neutraal
+  '5': Eens
+  '6': Helemaal mee eens
+Organization_Hindrance_5_6mPP:
+  class: ordered
+  '1': Niet van toepassing
+  '2': Helemaal oneens
+  '3': Oneens
+  '4': Neutraal
+  '5': Eens
+  '6': Helemaal mee eens
+Parentalleave_6mPP:
+  class: factor
+  '1': 'No'
+  '2': Yes, me
+  '3': Yes, partner
+  '4': Yes, both
+Parentalleave_1yPP:
+  class: factor
+  '1': 'No'
+  '2': Yes, me
+  '3': Yes, partner
+  '4': Yes, both
+Parentalleave_1y6mPP:
+  class: factor
+  '1': 'No'
+  '2': Yes, me
+  '3': Yes, partner
+  '4': Yes, both
+Parentalleave_2yPP:
+  class: factor
+  '1': 'No'
+  '2': Yes, me
+  '3': Yes, partner
+  '4': Yes, both
+Parentalleave_2y6mPP:
+  class: factor
+  '1': 'No'
+  '2': Yes, me
+  '3': Yes, partner
+  '4': Yes, both
+Parentalleave_3yPP:
+  class: factor
+  '1': 'No'
+  '2': Yes, me
+  '3': Yes, partner
+  '4': Yes, both
+Parentalleave_3y6mPP:
+  class: factor
+  '1': 'No'
+  '2': Yes, me
+  '3': Yes, partner
+  '4': Yes, both
+Parentalleave_4y6mPP:
+  class: factor
+  '1': 'No'
+  '2': Yes, me
+  '3': Yes, partner
+  '4': Yes, both
+Plannedmatleave_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Subsidy_6mPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+UBOS_4_12:
+  class: ordered
+  '1': Never
+  '2': Almost never
+  '3': Rarely
+  '4': Sometimes
+  '5': Often
+  '6': Very often
+  '7': Always
+UBOS_5_12:
+  class: ordered
+  '1': Never
+  '2': Almost never
+  '3': Rarely
+  '4': Sometimes
+  '5': Often
+  '6': Very often
+  '7': Always
+UBOS_6_12:
+  class: ordered
+  '1': Never
+  '2': Almost never
+  '3': Rarely
+  '4': Sometimes
+  '5': Often
+  '6': Very often
+  '7': Always
+UBOS_1_12:
+  class: ordered
+  '1': Always
+  '2': Very often
+  '3': Often
+  '4': Sometimes
+  '5': Rarely
+  '6': Almost never
+  '7': Never
+UBOS_2_12:
+  class: ordered
+  '1': Always
+  '2': Very often
+  '3': Often
+  '4': Sometimes
+  '5': Rarely
+  '6': Almost never
+  '7': Never
+UBOS_3_12:
+  class: ordered
+  '1': Always
+  '2': Very often
+  '3': Often
+  '4': Sometimes
+  '5': Rarely
+  '6': Almost never
+  '7': Never
+Unpaidwork_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+VBBA_1_12:
+  class: ordered
+  '1': Never
+  '2': Sometimes
+  '3': Often
+  '4': Always
+  '5': Not applicable
+VBBA_2_12:
+  class: ordered
+  '1': Never
+  '2': Sometimes
+  '3': Often
+  '4': Always
+  '5': Not applicable
+VBBA_3_12:
+  class: ordered
+  '1': Never
+  '2': Sometimes
+  '3': Often
+  '4': Always
+VBBA_4_12:
+  class: ordered
+  '1': Never
+  '2': Sometimes
+  '3': Often
+  '4': Always
+Work_12:
+  class: factor
+  '1': 'Yes'
+  '2': 'No'
+Work_28:
+  class: factor
+  '1': 'Yes'
+  '2': 'No'
+Work_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Work_6mPP:
+  class: factor
+  '1': 'Yes'
+  '2': 'No'
+Work_1yPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Work_1y6mPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Work_2yPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Work_2y6mPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Work_3yPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Work_3y6mPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Work_4yPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Work_4y6mPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Work_5yPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Workduringpreg_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Workpartner_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Workpartner_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+  '3': n/a
+Workpostpreg_12:
+  class: factor
+  '1': 'No'
+  '2': Yes, I am going to work the same number of hours
+  '3': Yes, but I am going to work fewer hours, namely ___  fewer hours per week
+  '4': Yes, but I am going to work more hours, ___ more hours per week
+Workpostpreg_8wPP:
+  class: factor
+  '1': 'No'
+  '2': Yes, I am going to work the same number of hours
+  '3': Yes, but I am going to work fewer hours, namely ___ hours per week less.
+  '4': Yes, but I am going to work more hours, namely ___ hours per week more.
+Worksituation_12:
+  class: factor
+  '1': Paid employed with a permanent contract
+  '2': Paid employed with a temporary contract
+  '3': Self-employed without staff
+  '4': Self-employed with staff
+  '5': A combination of paid employment and self-employment
+  '6': 'Other, namely:'
+SMUday_week_12:
+  class: ordered
+  '1': 0 days
+  '2': 1 day
+  '3': 2 days
+  '4': 3 days
+  '5': 4 days
+  '6': 5 days
+  '7': 6 days
+  '8': 7 days
+SMUmotives_1_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUmotives_2_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUmotives_3_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUmotives_4_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUmotives_5_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+SMUmotives_6_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Very important
+SMUmotives_7_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+SMUmotives_8_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUmotives_9_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+SMUmotives_10_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUmotives_11_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUmotives_12_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUmotives_13_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUmotives_14_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUmotives_15_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUmotives_16_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+SMUmotives_17_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUmotives_18_12:
+  class: ordered
+  '1': Not important at all
+  '2': Slightly unimportant
+  '3': Somewhat unimportant
+  '4': Neutral
+  '5': Somewhat important
+  '6': Fairly important
+  '7': Very important
+SMUtime_12:
+  class: ordered
+  '1': I don't use social media
+  '2': Less than half an hour a day
+  '3': Half an hour a day
+  '4': 1 hour a day
+  '5': 2 hours a day
+  '6': 3 hours a day
+  '7': 4 hours a day
+  '8': 5 hours a day
+  '9': 6 hours a day
+  '10': 7 or more hours a day
+PPBS_1_28:
+  class: ordered
+  '1': Helemaal niet
+  '2': Nauwelijks
+  '3': Erg
+  '4': Heel erg
+PPBS_2_28:
+  class: ordered
+  '1': Helemaal niet
+  '2': Nauwelijks
+  '3': Erg
+  '4': Heel erg
+PPBS_3_28:
+  class: ordered
+  '1': Helemaal niet
+  '2': Nauwelijks
+  '3': Erg
+  '4': Heel erg
+PPBS_4_28:
+  class: ordered
+  '1': Helemaal niet
+  '2': Nauwelijks
+  '3': Erg
+  '4': Heel erg
+PPBS_5_28:
+  class: ordered
+  '1': Helemaal niet
+  '2': Nauwelijks
+  '3': Erg
+  '4': Heel erg
+DAS_18_12:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_19_12:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_23_12:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionaly
+  '4': Almost every day
+  '5': Every day
+DAS_31_12:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_16_12:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_17_12:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_20_12:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_21_12:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_22_12:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_31_20:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_18_20:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_19_20:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_23_20:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionaly
+  '4': Almost every day
+  '5': Every day
+DAS_16_20:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_17_20:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_20_20:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_21_20:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_22_20:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_18_28:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_19_28:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_23_28:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionaly
+  '4': Almost every day
+  '5': Every day
+DAS_31_28:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_16_28:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_17_28:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_20_28:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_21_28:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_22_28:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_18_8wPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_19_8wPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_23_8wPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionaly
+  '4': Almost every day
+  '5': Every day
+DAS_31_8wPP:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_16_8wPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_17_8wPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_20_8wPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_21_8wPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_22_8wPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_31_6mPP:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_18_6mPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_19_6mPP:
+  class: ordered
+  '1': Rarely
+  '2': Occasionally
+  '3': More often than not
+  '4': Most of the time
+  '5': All the time
+DAS_23_6mPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': Almost every day
+  '5': Every day
+DAS_16_6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_17_6mPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_20_6mPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_21_6mPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_22_6mPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_31_1yPP:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_18_1yPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_19_1yPP:
+  class: ordered
+  '1': Rarely
+  '2': Occasionally
+  '3': More often than not
+  '4': Most of the time
+  '5': All the time
+DAS_23_1yPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': Almost every day
+  '5': Every day
+DAS_16_1yPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_17_1yPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_20_1yPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_21_1yPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_22_1yPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_31_1y6mPP:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_18_1y6mPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_19_1y6mPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_23_1y6mPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': Almost every day
+  '5': Every day
+DAS_16_1y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_17_1y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_20_1y6mPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_21_1y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_22_1y6mPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_31_2yPP:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_18_2yPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_19_2yPP:
+  class: ordered
+  '1': Rarely
+  '2': Occasionally
+  '3': More often than not
+  '4': Most of the time
+  '5': All the time
+DAS_23_2yPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': Almost every day
+  '5': Every day
+DAS_16_2yPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_17_2yPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_20_2yPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_21_2yPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_22_2yPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_31_2y6mPP:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_18_2y6mPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_19_2y6mPP:
+  class: ordered
+  '1': Rarely
+  '2': Occasionally
+  '3': More often than not
+  '4': Most of the time
+  '5': All the time
+DAS_23_2y6mPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': Almost every day
+  '5': Every day
+DAS_16_2y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_17_2y6mPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_20_2y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_21_2y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_22_2y6mPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_31_3yPP:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_18_3yPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_19_3yPP:
+  class: ordered
+  '1': Rarely
+  '2': Occasionally
+  '3': More often than not
+  '4': Most of the time
+  '5': All the time
+DAS_23_3yPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': Almost every day
+  '5': Every day
+DAS_16_3yPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_17_3yPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_20_3yPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_21_3yPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_22_3yPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_31_3y6mPP:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_18_3y6mPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_19_3y6mPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_23_3y6mPP:
+  class: ordered
+  '1': Rarely
+  '2': Occasionally
+  '3': Almost every day
+  '4': Every day
+DAS_16_3y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_17_3y6mPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_20_3y6mPP:
+  class: ordered
+  '1': All the time
+  '2': Most of the time
+  '3': More often than not
+  '4': Occasionally
+  '5': Rarely
+  '6': Never
+DAS_21_3y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_22_3y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_31_4yPP:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_18_4yPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All of the time
+DAS_19_4yPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All of the time
+DAS_23_4yPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': Almost every day
+  '5': Every day
+DAS_16_4yPP:
+  class: ordered
+  '1': More often than not
+  '2': Occasionally
+  '3': Rarely
+  '4': Never
+DAS_17_4yPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_20_4yPP:
+  class: ordered
+  '1': Most of the time
+  '2': Occasionally
+  '3': Rarely
+  '4': Never
+DAS_21_4yPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_22_4yPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_31_4y6mPP:
+  class: ordered
+  '1': Extremely unhappy
+  '2': Fairly unhappy
+  '3': A little unhappy
+  '4': Happy
+  '5': Very happy
+  '6': Extremely happy
+  '7': Perfect
+DAS_18_4y6mPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': More often than not
+  '5': Most of the time
+  '6': All the time
+DAS_19_4y6mPP:
+  class: ordered
+  '1': Rarely
+  '2': Occasionally
+  '3': More often than not
+  '4': Most of the time
+  '5': All the time
+DAS_23_4y6mPP:
+  class: ordered
+  '1': Never
+  '2': Rarely
+  '3': Occasionally
+  '4': Almost every day
+  '5': Every day
+DAS_16_4y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_17_4y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_20_4y6mPP:
+  class: ordered
+  '1': More often than not
+  '2': Occasionally
+  '3': Rarely
+  '4': Never
+DAS_21_4y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_22_4y6mPP:
+  class: ordered
+  '1': Most of the time
+  '2': More often than not
+  '3': Occasionally
+  '4': Rarely
+  '5': Never
+DAS_31_5yPP:
+  class: ordered
+  '1': Redelijk ongelukkig
+  '2': Een beetje ongelukkig
+  '3': Gelukkig
+  '4': Erg gelukkig
+  '5': Extreem gelukkig
+  '6': Perfect
+DAS_18_5yPP:
+  class: ordered
+  '1': Zelden
+  '2': Soms
+  '3': Vaker wel dan niet
+  '4': Vaak
+  '5': Altijd
+DAS_19_5yPP:
+  class: ordered
+  '1': Zelden
+  '2': Soms
+  '3': Vaker wel dan niet
+  '4': Vaak
+  '5': Altijd
+DAS_23_5yPP:
+  class: ordered
+  '1': Nooit
+  '2': Af en toe
+  '3': Bij gelegenheid
+  '4': Bijna elke dag
+  '5': Elke dag
+DAS_16_5yPP:
+  class: ordered
+  '1': Vaker wel dan niet
+  '2': Soms
+  '3': Zelden
+  '4': Nooit
+DAS_17_5yPP:
+  class: ordered
+  '1': Vaak
+  '2': Vaker wel dan niet
+  '3': Soms
+  '4': Zelden
+  '5': Nooit
+DAS_20_5yPP:
+  class: ordered
+  '1': Vaker wel dan niet
+  '2': Soms
+  '3': Zelden
+  '4': Nooit
+DAS_21_5yPP:
+  class: ordered
+  '1': Vaak
+  '2': Vaker wel dan niet
+  '3': Soms
+  '4': Zelden
+  '5': Nooit
+DAS_22_5yPP:
+  class: ordered
+  '1': Vaak
+  '2': Vaker wel dan niet
+  '3': Soms
+  '4': Zelden
+  '5': Nooit
+PRS_1_8wPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_2_8wPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_3_8wPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_4_8wPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_5_8wPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_1_6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_2_6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_3_6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_4_6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_5_6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_1_1yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_2_1yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_3_1yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_4_1yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_5_1yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_1_1y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_2_1y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_3_1y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_4_1y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_5_1y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_1_2yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_2_2yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_3_2yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_4_2yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_5_2yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_1_2y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_2_2y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_3_2y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_4_2y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_5_2y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_1_3yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_2_3yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_3_3yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_4_3yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_5_3yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_1_3y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_2_3y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_3_3y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_4_3y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_5_3y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_1_4yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_2_4yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_3_4yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_4_4yPP:
+  class: ordered
+  '1': Somewhat true
+  '2': Moderately true
+  '3': Very true
+  '4': Completely true
+PRS_5_4yPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_1_4y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_2_4y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_3_4y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_4_4y6mPP:
+  class: ordered
+  '1': Somewhat true
+  '2': Moderately true
+  '3': Very true
+  '4': Completely true
+PRS_5_4y6mPP:
+  class: ordered
+  '1': Not at all true
+  '2': Somewhat true
+  '3': Moderately true
+  '4': Very true
+  '5': Completely true
+PRS_1_5yPP:
+  class: ordered
+  '1': Klopt helemaal niet
+  '2': Klopt niet
+  '3': Soms niet, soms wel
+  '4': Klopt wel
+  '5': Klopt helemaal
+PRS_2_5yPP:
+  class: ordered
+  '1': Klopt niet
+  '2': Soms niet, soms wel
+  '3': Klopt wel
+  '4': Klopt helemaal
+PRS_3_5yPP:
+  class: ordered
+  '1': Klopt niet
+  '2': Soms niet, soms wel
+  '3': Klopt wel
+  '4': Klopt helemaal
+PRS_4_5yPP:
+  class: ordered
+  '1': Klopt helemaal niet
+  '2': Klopt niet
+  '3': Soms niet, soms wel
+  '4': Klopt wel
+  '5': Klopt helemaal
+PRS_5_5yPP:
+  class: ordered
+  '1': Klopt helemaal niet
+  '2': Klopt niet
+  '3': Soms niet, soms wel
+  '4': Klopt wel
+  '5': Klopt helemaal
+AIR_10_1y6mPP:
+  class: ordered
+  '1': Completely disagree (1)
+  '2': '2'
+  '3': '3'
+  '4': '4'
+  '5': Completely agree (5)
+AIR_11_1y6mPP:
+  class: ordered
+  '1': Completely disagree (1)
+  '2': '2'
+  '3': '3'
+  '4': '4'
+  '5': Completely agree (5)
+AIR_13_1y6mPP:
+  class: ordered
+  '1': Completely agree (5)
+  '2': '4'
+  '3': '3'
+  '4': '2'
+  '5': Completely disagree (1)
+Rolegender_1_1y6mPP:
+  class: ordered
+  '1': I do much more
+  '2': '2'
+  '3': '3'
+  '4': Equal distribution
+  '5': '5'
+  '6': '6'
+Rolegender_2_1y6mPP:
+  class: ordered
+  '1': Reasonably dissatisfied
+  '2': A little dissatisfied
+  '3': Satisfied
+  '4': Very satisfied
+  '5': Extremely satisfied
+  '6': Perfect
+Rolegender_3_1y6mPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither
+  '4': Agree
+  '5': Strongly agree
+Rolegender_5_1y6mPP:
+  class: ordered
+  '1': Strongly disagree
+  '2': Disagree
+  '3': Neither
+  '4': Agree
+  '5': Strongly agree
+Rolegender_4_1y6mPP:
+  class: ordered
+  '1': Strongly agree
+  '2': Agree
+  '3': Neither
+  '4': Disagree
+  '5': Strongly disagree
+MSPSS_3_20:
+  class: ordered
+  '1': Very strongly disagree
+  '2': Strongly disagree
+  '3': Mildly disagree
+  '4': Neutral
+  '5': Mildly agree
+  '6': Strongly agree
+  '7': Very strongly agree
+MSPSS_4_20:
+  class: ordered
+  '1': Very strongly disagree
+  '2': Strongly disagree
+  '3': Mildly disagree
+  '4': Neutral
+  '5': Mildly agree
+  '6': Strongly agree
+  '7': Very strongly agree
+MSPSS_6_20:
+  class: ordered
+  '1': Very strongly disagree
+  '2': Strongly disagree
+  '3': Mildly disagree
+  '4': Neutral
+  '5': Mildly agree
+  '6': Strongly agree
+  '7': Very strongly agree
+MSPSS_7_20:
+  class: ordered
+  '1': Very strongly disagree
+  '2': Strongly disagree
+  '3': Mildly disagree
+  '4': Neutral
+  '5': Mildly agree
+  '6': Strongly agree
+  '7': Very strongly agree
+MSPSS_8_20:
+  class: ordered
+  '1': Very strongly disagree
+  '2': Strongly disagree
+  '3': Mildly disagree
+  '4': Neutral
+  '5': Mildly agree
+  '6': Strongly agree
+  '7': Very strongly agree
+MSPSS_9_20:
+  class: ordered
+  '1': Very strongly disagree
+  '2': Strongly disagree
+  '3': Mildly disagree
+  '4': Neutral
+  '5': Mildly agree
+  '6': Strongly agree
+  '7': Very strongly agree
+MSPSS_11_20:
+  class: ordered
+  '1': Very strongly disagree
+  '2': Strongly disagree
+  '3': Mildly disagree
+  '4': Neutral
+  '5': Mildly agree
+  '6': Strongly agree
+  '7': Very strongly agree
+MSPSS_12_20:
+  class: ordered
+  '1': Very strongly disagree
+  '2': Strongly disagree
+  '3': Mildly disagree
+  '4': Neutral
+  '5': Mildly agree
+  '6': Strongly agree
+  '7': Very strongly agree
+TSS_1_20:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+TSS_2_20:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+TSS_3_20:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+TSS_4_20:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+TSS_5_20:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+TSS_6_20:
+  class: ordered
+  '1': None of the time
+  '2': A little of the time
+  '3': Some of the time
+  '4': Most of the time
+  '5': All of the time
+Pregnancycourse_workoutclass_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Pregnancycourse_yoga_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Pregnancycourse_mindfulness_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Pregnancycourse_pilates_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Pregnancycourse_prenatalswimming_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Pregnancycourse_birthingtogether_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Pregnancycourse_haptonomy_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Pregnancycourse_hypnobirthing_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Pregnancycourse_other_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_12:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_20:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_28:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_6mPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_1yPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_1y6mPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_2yPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_2y6mPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_3yPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_3y6mPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_4yPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_4y6mPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeevent_5yPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Lifeeventrate_6mPP:
+  class: factor
+  '1': Positive
+  '2': Negative
+  '3': Both
+Lifeeventrate_1yPP:
+  class: factor
+  '1': Positive
+  '2': Negative
+  '3': Both
+Lifeeventrate_1y6mPP:
+  class: factor
+  '1': Positive
+  '2': Negative
+  '3': Both
+Lifeeventrate_2yPP:
+  class: factor
+  '1': Positive
+  '2': Negative
+  '3': Both
+Lifeeventrate_2y6mPP:
+  class: factor
+  '1': Positive
+  '2': Negative
+  '3': Both
+Lifeeventrate_3yPP:
+  class: factor
+  '1': Positive
+  '2': Negative
+  '3': Both
+Lifeeventrate_3y6mPP:
+  class: factor
+  '1': Positive
+  '2': Negative
+  '3': Both
+Lifeeventrate_4yPP:
+  class: factor
+  '1': Positive
+  '2': Negative
+  '3': Both
+Lifeeventrate_4y6mPP:
+  class: factor
+  '1': Positive
+  '2': Negative
+  '3': Both
+Lifeeventrate_5yPP:
+  class: factor
+  '1': Positief
+  '2': Negatief
+  '3': Both
+Medicationbaby_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Weeksbreastfeedingencoding_8wPP:
+  class: ordered
+  '1': Minder dan 1
+  '2': '1'
+  '3': '2'
+  '4': '3'
+  '5': '4'
+  '6': '5'
+  '7': '6'
+  '8': '7'
+  '9': '8'
+  '10': '9'
+  '11': '11'
+  '12': '12'
+  '13': ik geef nog steeds BV
+  '14': nvt
+Genderbaby_8wPP:
+  class: factor
+  '1': boy
+  '2': girl
+Comforting_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': Frequently
+  '4': Quite often
+  '5': Very often
+Cryhour_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Dayscrying_8wPP:
+  class: ordered
+  '1': 1 day
+  '2': 2 days
+  '3': 3 days or more
+  '4': '7'
+  '5': nvt
+Frequencycrying_8wPP:
+  class: ordered
+  '1': Almost never
+  '2': Sometimes
+  '3': Frequently
+  '4': Quite often
+  '5': Very often
+Hourscrying_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+NH_Crybaby_8wPP:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+  '3': n/a
+Complicaties_zwangerschap_OBS:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Verdenking_intra_uteriene_groeivertraging_OBS:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+OVG_diabetes_gravidarum_OBS:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+OVG_pre_eclampsie_OBS:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+OVG_vroeggeboorte_OBS:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+HG_pre_existente_aandoening_en_OBS:
+  class: factor
+  '1': 'No'
+  '2': 'Yes'
+Type_partus_OBS:
+  class: factor
+  '1': Spontaan
+  '2': Inductie
+Kind_geslacht_OBS:
+  class: factor
+  '1': Jongen
+  '2': Meisje
