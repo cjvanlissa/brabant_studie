@@ -11,7 +11,9 @@ mask = TRUE
 # this does nothing for apa_table:
 options(knitr.kable.NA = '')
 knitr::opts_chunk$set(
-  echo = FALSE
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE
 )
 library(DT)
 library(bookdown)
@@ -109,7 +111,7 @@ and \@ref(tab:tabscal) for multi-item scales.
 
 ```{r tabcat, results="asis"}
 library(DT)
-DT::datatable(desc_cat,  options = list(pageLength = 67), rownames= FALSE) |>
+DT::datatable(desc_cat,  options = list(pageLength = nrow(desc_cat)), rownames= FALSE) |>
   formatRound(columns = c(5, 6))
 cat("<p>","<table width=100%>", paste0("<caption>",
                       "(#tab:tabcat)",
@@ -119,7 +121,7 @@ cat("<p>","<table width=100%>", paste0("<caption>",
 ```
 
 ```{r tabnum, results="asis"}
-DT::datatable(desc_num,  options = list(pageLength = 67), rownames= FALSE) |>
+DT::datatable(desc_num,  options = list(pageLength = nrow(desc_num)), rownames= FALSE) |>
   formatRound(columns = c(3:8))
 cat("<p>","<table width=100%>", paste0("<caption>",
                       "(#tab:tabnum)",
@@ -134,7 +136,7 @@ cat("<p>","<table width=100%>", paste0("<caption>",
 desc_scl$comp_rel <- as.numeric(desc_scl$comp_rel)
 DT::datatable(desc_scl,
               options = list(pageLength = nrow(desc_scl)), rownames= FALSE) |>
-  formatRound(columns = c(4:13))
+  formatRound(columns = c(4:12))
 cat("<p>","<table width=100%>", paste0("<caption>",
                       "(#tab:tabscal)",
                       "Scale predictor descriptive statistics.",
