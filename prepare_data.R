@@ -9,6 +9,9 @@ library(foreign)
 
 df <- foreign::read.spss("dataset_id_dataset_vanscheppingen.sav", to.data.frame = TRUE)
 
+desc <- descriptives(df)
+toomuchmiss <- which(desc$missing > .9)
+df <- df[ , -toomuchmiss]
 # df[c("ParticipantID", "V12_A1", "V12_A2")] <- NULL
 # Fix names of reverse coded
 names(df)[grep("_r$", names(df))] <- gsub("_r$", "", names(df)[grep("_r$", names(df))])
@@ -83,7 +86,9 @@ df[ints] <- lapply(df[ints], as.integer)
 
 # Delete
 # These are mostly text variables, or variables where the data is in inconsistent formats (minutes, days, weeks combined), or very sparse data (e.g., country where someone migrated from). Deleting
-delte <- unique(c("Agekids_8wPP", "Profession_12",  "Unpaidprofession_12",  "Healthbaby_8wPP", "Complicaties_zwangerschap_welke_OBS", "Verwijzing_zwangerschap_reden_OBS", "OVG_overige_complicaties_OBS","Dayshospital_6mPP","Dayshospital_6mPP", "Migration_2_1y6mPP", "Migration_4_1y6mPP", "Migration_6_1y6mPP", "Infopregcourse_28", "OVG_vroeggeboorte_reden_OBS", "HG_pre_existente_aandoening_en_welke_OBS", "OVG_Complicaties_na_bevalling_welke_OBS", "Duedate_12", "Durationcrying_8wPP", "Prevdelivery_time_12",
+delte <- unique(c("Absence_workfreq_12", "Absence_illness_12",
+                  "Problemsprevpreg_NA_12",
+                  "Agekids_8wPP", "Profession_12",  "Unpaidprofession_12",  "Healthbaby_8wPP", "Complicaties_zwangerschap_welke_OBS", "Verwijzing_zwangerschap_reden_OBS", "OVG_overige_complicaties_OBS","Dayshospital_6mPP","Dayshospital_6mPP", "Migration_2_1y6mPP", "Migration_4_1y6mPP", "Migration_6_1y6mPP", "Infopregcourse_28", "OVG_vroeggeboorte_reden_OBS", "HG_pre_existente_aandoening_en_welke_OBS", "OVG_Complicaties_na_bevalling_welke_OBS", "Duedate_12", "Durationcrying_8wPP", "Prevdelivery_time_12",
                   "Complicaties_na_bevalling_welke_OBS",
                     "Baringsuitkomst_OBS",
                     "Cryhourencoding_8wPP",
@@ -107,7 +112,7 @@ delte <- unique(c("Agekids_8wPP", "Profession_12",  "Unpaidprofession_12",  "Hea
 
 df[delte] <- NULL
 for(d in delte){
-  dict <- dict[!sapply(dict$items, function(x) d %in% x), ]
+  dict <- dict[!sapply(dict$items, function(x) all(x %in% d)), ]
 }
 
 desc <- descriptives(df)
@@ -179,7 +184,7 @@ df$Problemspreg_8wPP <- droplevels(df$Problemspreg_8wPP)
 levels(df$Problemsprevdeliv_12) <- c("N/A", "No", rep("Yes", (length(levels(df$Problemsprevdeliv_12))-2L)))
 df$Problemsprevdeliv_12 <- droplevels(df$Problemsprevdeliv_12)
 
-levels(df$Lifeeventrate_5yPP) <- c("Positief", "Negatief", "Both")
+# levels(df$Lifeeventrate_5yPP) <- c("Positief", "Negatief", "Both")
 
 vs <- grep("^Pregnancycourse_", names(df), value = TRUE)
 for(v in vs){
@@ -201,7 +206,7 @@ for(v in vs){
 }
 
 desc <- descriptives(df)
-dict$items2 <- lapply(dict$items, function(v){
+dict$items <- lapply(dict$items, function(v){
   v <- v[v %in% names(df)]
 })
 

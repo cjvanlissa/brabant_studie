@@ -63,10 +63,6 @@ Recentmiscarriage_12:
   class: factor
   '1': 'No'
   '2': 'Yes'
-Problemsprevpreg_NA_12:
-  class: factor
-  '1': Applicable
-  '2': Not applicable
 Problemsprevpreg_diabetes_12:
   class: factor
   '1': 'No'
@@ -185,10 +181,6 @@ Maritalstatus_4yPP:
   '1': Relationship
   '2': Other
 Maritalstatus_4y6mPP:
-  class: factor
-  '1': Relationship
-  '2': Other
-Maritalstatus_5yPP:
   class: factor
   '1': Relationship
   '2': Other
@@ -516,48 +508,6 @@ DS14_3_12:
   '3': Neutral
   '4': Rather false
   '5': 'False'
-OCPD_SC_1_8wPP:
-  class: ordered
-  '1': Nooit
-  '2': Soms
-  '3': Vaak
-  '4': Altijd
-OCPD_SC_2_8wPP:
-  class: ordered
-  '1': Nooit
-  '2': Soms
-  '3': Vaak
-  '4': Altijd
-OCPD_SC_3_8wPP:
-  class: ordered
-  '1': Nooit
-  '2': Soms
-  '3': Vaak
-  '4': Altijd
-OCPD_SC_4_8wPP:
-  class: ordered
-  '1': Nooit
-  '2': Soms
-  '3': Vaak
-  '4': Altijd
-OCPD_SC_5_8wPP:
-  class: ordered
-  '1': Nooit
-  '2': Soms
-  '3': Vaak
-  '4': Altijd
-OCPD_SC_6_8wPP:
-  class: ordered
-  '1': Nooit
-  '2': Soms
-  '3': Vaak
-  '4': Altijd
-OCPD_SC_7_8wPP:
-  class: ordered
-  '1': Nooit
-  '2': Soms
-  '3': Vaak
-  '4': Altijd
 Perfectionism_push_20:
   class: ordered
   '1': Never
@@ -1453,10 +1403,6 @@ Complaints_23_12:
   '3': Some of the time
   '4': Most of the time
   '5': All of the time
-Absence_illness_12:
-  class: factor
-  '1': 'No'
-  '2': 'Yes'
 Breadwinner_12:
   class: factor
   '1': Myself
@@ -1670,19 +1616,7 @@ Parentalleave_2y6mPP:
   '2': Yes, me
   '3': Yes, partner
   '4': Yes, both
-Parentalleave_3yPP:
-  class: factor
-  '1': 'No'
-  '2': Yes, me
-  '3': Yes, partner
-  '4': Yes, both
 Parentalleave_3y6mPP:
-  class: factor
-  '1': 'No'
-  '2': Yes, me
-  '3': Yes, partner
-  '4': Yes, both
-Parentalleave_4y6mPP:
   class: factor
   '1': 'No'
   '2': Yes, me
@@ -1821,14 +1755,6 @@ Work_3y6mPP:
   '1': 'No'
   '2': 'Yes'
 Work_4yPP:
-  class: factor
-  '1': 'No'
-  '2': 'Yes'
-Work_4y6mPP:
-  class: factor
-  '1': 'No'
-  '2': 'Yes'
-Work_5yPP:
   class: factor
   '1': 'No'
   '2': 'Yes'
@@ -2904,133 +2830,6 @@ DAS_22_4yPP:
   '3': Occasionally
   '4': Rarely
   '5': Never
-DAS_31_4y6mPP:
-  class: ordered
-  '1': Extremely unhappy
-  '2': Fairly unhappy
-  '3': A little unhappy
-  '4': Happy
-  '5': Very happy
-  '6': Extremely happy
-  '7': Perfect
-DAS_18_4y6mPP:
-  class: ordered
-  '1': Never
-  '2': Rarely
-  '3': Occasionally
-  '4': More often than not
-  '5': Most of the time
-  '6': All the time
-DAS_19_4y6mPP:
-  class: ordered
-  '1': Rarely
-  '2': Occasionally
-  '3': More often than not
-  '4': Most of the time
-  '5': All the time
-DAS_23_4y6mPP:
-  class: ordered
-  '1': Never
-  '2': Rarely
-  '3': Occasionally
-  '4': Almost every day
-  '5': Every day
-DAS_16_4y6mPP:
-  class: ordered
-  '1': Most of the time
-  '2': More often than not
-  '3': Occasionally
-  '4': Rarely
-  '5': Never
-DAS_17_4y6mPP:
-  class: ordered
-  '1': Most of the time
-  '2': More often than not
-  '3': Occasionally
-  '4': Rarely
-  '5': Never
-DAS_20_4y6mPP:
-  class: ordered
-  '1': More often than not
-  '2': Occasionally
-  '3': Rarely
-  '4': Never
-DAS_21_4y6mPP:
-  class: ordered
-  '1': Most of the time
-  '2': More often than not
-  '3': Occasionally
-  '4': Rarely
-  '5': Never
-DAS_22_4y6mPP:
-  class: ordered
-  '1': Most of the time
-  '2': More often than not
-  '3': Occasionally
-  '4': Rarely
-  '5': Never
-DAS_31_5yPP:
-  class: ordered
-  '1': Redelijk ongelukkig
-  '2': Een beetje ongelukkig
-  '3': Gelukkig
-  '4': Erg gelukkig
-  '5': Extreem gelukkig
-  '6': Perfect
-DAS_18_5yPP:
-  class: ordered
-  '1': Zelden
-  '2': Soms
-  '3': Vaker wel dan niet
-  '4': Vaak
-  '5': Altijd
-DAS_19_5yPP:
-  class: ordered
-  '1': Zelden
-  '2': Soms
-  '3': Vaker wel dan niet
-  '4': Vaak
-  '5': Altijd
-DAS_23_5yPP:
-  class: ordered
-  '1': Nooit
-  '2': Af en toe
-  '3': Bij gelegenheid
-  '4': Bijna elke dag
-  '5': Elke dag
-DAS_16_5yPP:
-  class: ordered
-  '1': Vaker wel dan niet
-  '2': Soms
-  '3': Zelden
-  '4': Nooit
-DAS_17_5yPP:
-  class: ordered
-  '1': Vaak
-  '2': Vaker wel dan niet
-  '3': Soms
-  '4': Zelden
-  '5': Nooit
-DAS_20_5yPP:
-  class: ordered
-  '1': Vaker wel dan niet
-  '2': Soms
-  '3': Zelden
-  '4': Nooit
-DAS_21_5yPP:
-  class: ordered
-  '1': Vaak
-  '2': Vaker wel dan niet
-  '3': Soms
-  '4': Zelden
-  '5': Nooit
-DAS_22_5yPP:
-  class: ordered
-  '1': Vaak
-  '2': Vaker wel dan niet
-  '3': Soms
-  '4': Zelden
-  '5': Nooit
 PRS_1_8wPP:
   class: ordered
   '1': Not at all true
@@ -3345,131 +3144,6 @@ PRS_5_4yPP:
   '3': Moderately true
   '4': Very true
   '5': Completely true
-PRS_1_4y6mPP:
-  class: ordered
-  '1': Not at all true
-  '2': Somewhat true
-  '3': Moderately true
-  '4': Very true
-  '5': Completely true
-PRS_2_4y6mPP:
-  class: ordered
-  '1': Not at all true
-  '2': Somewhat true
-  '3': Moderately true
-  '4': Very true
-  '5': Completely true
-PRS_3_4y6mPP:
-  class: ordered
-  '1': Not at all true
-  '2': Somewhat true
-  '3': Moderately true
-  '4': Very true
-  '5': Completely true
-PRS_4_4y6mPP:
-  class: ordered
-  '1': Somewhat true
-  '2': Moderately true
-  '3': Very true
-  '4': Completely true
-PRS_5_4y6mPP:
-  class: ordered
-  '1': Not at all true
-  '2': Somewhat true
-  '3': Moderately true
-  '4': Very true
-  '5': Completely true
-PRS_1_5yPP:
-  class: ordered
-  '1': Klopt helemaal niet
-  '2': Klopt niet
-  '3': Soms niet, soms wel
-  '4': Klopt wel
-  '5': Klopt helemaal
-PRS_2_5yPP:
-  class: ordered
-  '1': Klopt niet
-  '2': Soms niet, soms wel
-  '3': Klopt wel
-  '4': Klopt helemaal
-PRS_3_5yPP:
-  class: ordered
-  '1': Klopt niet
-  '2': Soms niet, soms wel
-  '3': Klopt wel
-  '4': Klopt helemaal
-PRS_4_5yPP:
-  class: ordered
-  '1': Klopt helemaal niet
-  '2': Klopt niet
-  '3': Soms niet, soms wel
-  '4': Klopt wel
-  '5': Klopt helemaal
-PRS_5_5yPP:
-  class: ordered
-  '1': Klopt helemaal niet
-  '2': Klopt niet
-  '3': Soms niet, soms wel
-  '4': Klopt wel
-  '5': Klopt helemaal
-AIR_10_1y6mPP:
-  class: ordered
-  '1': Completely disagree (1)
-  '2': '2'
-  '3': '3'
-  '4': '4'
-  '5': Completely agree (5)
-AIR_11_1y6mPP:
-  class: ordered
-  '1': Completely disagree (1)
-  '2': '2'
-  '3': '3'
-  '4': '4'
-  '5': Completely agree (5)
-AIR_13_1y6mPP:
-  class: ordered
-  '1': Completely agree (5)
-  '2': '4'
-  '3': '3'
-  '4': '2'
-  '5': Completely disagree (1)
-Rolegender_1_1y6mPP:
-  class: ordered
-  '1': I do much more
-  '2': '2'
-  '3': '3'
-  '4': Equal distribution
-  '5': '5'
-  '6': '6'
-Rolegender_2_1y6mPP:
-  class: ordered
-  '1': Reasonably dissatisfied
-  '2': A little dissatisfied
-  '3': Satisfied
-  '4': Very satisfied
-  '5': Extremely satisfied
-  '6': Perfect
-Rolegender_3_1y6mPP:
-  class: ordered
-  '1': Strongly disagree
-  '2': Disagree
-  '3': Neither
-  '4': Agree
-  '5': Strongly agree
-Rolegender_5_1y6mPP:
-  class: ordered
-  '1': Strongly disagree
-  '2': Disagree
-  '3': Neither
-  '4': Agree
-  '5': Strongly agree
-Rolegender_4_1y6mPP:
-  class: ordered
-  '1': Strongly agree
-  '2': Agree
-  '3': Neither
-  '4': Disagree
-  '5': Strongly disagree
 MSPSS_3_20:
   class: ordered
   '1': Very strongly disagree
@@ -3672,60 +3346,6 @@ Lifeevent_4y6mPP:
   class: factor
   '1': 'No'
   '2': 'Yes'
-Lifeevent_5yPP:
-  class: factor
-  '1': 'No'
-  '2': 'Yes'
-Lifeeventrate_6mPP:
-  class: factor
-  '1': Positive
-  '2': Negative
-  '3': Both
-Lifeeventrate_1yPP:
-  class: factor
-  '1': Positive
-  '2': Negative
-  '3': Both
-Lifeeventrate_1y6mPP:
-  class: factor
-  '1': Positive
-  '2': Negative
-  '3': Both
-Lifeeventrate_2yPP:
-  class: factor
-  '1': Positive
-  '2': Negative
-  '3': Both
-Lifeeventrate_2y6mPP:
-  class: factor
-  '1': Positive
-  '2': Negative
-  '3': Both
-Lifeeventrate_3yPP:
-  class: factor
-  '1': Positive
-  '2': Negative
-  '3': Both
-Lifeeventrate_3y6mPP:
-  class: factor
-  '1': Positive
-  '2': Negative
-  '3': Both
-Lifeeventrate_4yPP:
-  class: factor
-  '1': Positive
-  '2': Negative
-  '3': Both
-Lifeeventrate_4y6mPP:
-  class: factor
-  '1': Positive
-  '2': Negative
-  '3': Both
-Lifeeventrate_5yPP:
-  class: factor
-  '1': Positief
-  '2': Negatief
-  '3': Both
 Medicationbaby_8wPP:
   class: factor
   '1': 'No'
@@ -3779,11 +3399,6 @@ Hourscrying_8wPP:
   class: factor
   '1': 'No'
   '2': 'Yes'
-NH_Crybaby_8wPP:
-  class: factor
-  '1': 'No'
-  '2': 'Yes'
-  '3': n/a
 Complicaties_zwangerschap_OBS:
   class: factor
   '1': 'No'

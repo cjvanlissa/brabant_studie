@@ -1,4 +1,4 @@
-Codebook created on 2026-04-18 at 2026-04-18 08:33:18.35751
+Codebook created on 2026-07-18 at 2026-07-18 08:48:11.462758
 ================
 
 A codebook contains documentation and metadata describing the contents,
@@ -6,7 +6,7 @@ structure, and layout of a data file.
 
 ## Dataset description
 
-The data contains 2865 cases and 619 variables.
+The data contains 2865 cases and 556 variables.
 
 ## Codebook
 
@@ -30,7 +30,6 @@ The data contains 2865 cases and 619 variables.
 | Prevdelivery_12 | factor | 2759 | 0.04 | 3 |  |  | 1441.00 | No |  | 0.50 |  |  |  |  |  |  |  |
 | Samepartner_12 | factor | 1317 | 0.54 | 3 |  |  | 1548.00 |  |  | 0.07 |  |  |  |  |  |  |  |
 | Recentmiscarriage_12 | factor | 1317 | 0.54 | 3 |  |  | 1548.00 |  |  | 0.31 |  |  |  |  |  |  |  |
-| Problemsprevpreg_NA_12 | factor | 1419 | 0.50 | 3 |  |  | 1446.00 |  |  | 0.47 |  |  |  |  |  |  |  |
 | Problemsprevpreg_diabetes_12 | factor | 975 | 0.66 | 3 |  |  | 1890.00 |  |  | 0.13 |  |  |  |  |  |  |  |
 | Problemsprevpreg_hypertension_12 | factor | 1000 | 0.65 | 3 |  |  | 1865.00 |  |  | 0.17 |  |  |  |  |  |  |  |
 | Problemsprevpreg_preeclampsia_12 | factor | 955 | 0.67 | 3 |  |  | 1910.00 |  |  | 0.09 |  |  |  |  |  |  |  |
@@ -62,7 +61,6 @@ The data contains 2865 cases and 619 variables.
 | Maritalstatus_3y6mPP | factor | 570 | 0.80 | 3 |  |  | 2295.00 |  |  | 0.06 |  |  |  |  |  |  |  |
 | Maritalstatus_4yPP | factor | 375 | 0.87 | 3 |  |  | 2490.00 |  |  | 0.08 |  |  |  |  |  |  |  |
 | Maritalstatus_4y6mPP | factor | 294 | 0.90 | 3 |  |  | 2571.00 |  |  | 0.07 |  |  |  |  |  |  |  |
-| Maritalstatus_5yPP | factor | 191 | 0.93 | 3 |  |  | 2674.00 |  |  | 0.06 |  |  |  |  |  |  |  |
 | Partner_20 | factor | 2494 | 0.13 | 3 |  |  | 2453.00 | Yes |  | 0.03 |  |  |  |  |  |  |  |
 | Partner_28 | factor | 2344 | 0.18 | 3 |  |  | 2305.00 | Yes |  | 0.03 |  |  |  |  |  |  |  |
 | Partner_8wPP | factor | 2347 | 0.18 | 3 |  |  | 2314.00 | Yes |  | 0.03 |  |  |  |  |  |  |  |
@@ -116,13 +114,6 @@ The data contains 2865 cases and 619 variables.
 | DS14_14_12 | ordered, factor | 2667 | 0.07 | 6 |  |  | 1254.00 | False |  | 0.66 |  |  |  |  |  |  |  |
 | DS14_1_12 | ordered, factor | 2667 | 0.07 | 6 |  |  | 1050.00 | True |  | 0.68 |  |  |  |  |  |  |  |
 | DS14_3_12 | ordered, factor | 2667 | 0.07 | 6 |  |  | 893.00 | Neutral |  | 0.76 |  |  |  |  |  |  |  |
-| OCPD_SC_1_8wPP | ordered, factor | 230 | 0.92 | 5 |  |  | 2635.00 |  |  | 0.65 |  |  |  |  |  |  |  |
-| OCPD_SC_2_8wPP | ordered, factor | 230 | 0.92 | 5 |  |  | 2635.00 |  |  | 0.65 |  |  |  |  |  |  |  |
-| OCPD_SC_3_8wPP | ordered, factor | 230 | 0.92 | 5 |  |  | 2635.00 |  |  | 0.60 |  |  |  |  |  |  |  |
-| OCPD_SC_4_8wPP | ordered, factor | 230 | 0.92 | 5 |  |  | 2635.00 |  |  | 0.66 |  |  |  |  |  |  |  |
-| OCPD_SC_5_8wPP | ordered, factor | 230 | 0.92 | 5 |  |  | 2635.00 |  |  | 0.59 |  |  |  |  |  |  |  |
-| OCPD_SC_6_8wPP | ordered, factor | 230 | 0.92 | 5 |  |  | 2635.00 |  |  | 0.63 |  |  |  |  |  |  |  |
-| OCPD_SC_7_8wPP | ordered, factor | 230 | 0.92 | 5 |  |  | 2635.00 |  |  | 0.56 |  |  |  |  |  |  |  |
 | Perfectionism_push_20 | ordered, factor | 393 | 0.86 | 5 |  |  | 2472.00 |  |  | 0.64 |  |  |  |  |  |  |  |
 | Perfectionism_standards_20 | ordered, factor | 393 | 0.86 | 5 |  |  | 2472.00 |  |  | 0.69 |  |  |  |  |  |  |  |
 | Perfectionism_failure_20 | ordered, factor | 393 | 0.86 | 5 |  |  | 2472.00 |  |  | 0.67 |  |  |  |  |  |  |  |
@@ -263,9 +254,7 @@ The data contains 2865 cases and 619 variables.
 | Complaints_21_12 | ordered, factor | 2563 | 0.11 | 6 |  |  | 1509.00 | None of the time |  | 0.57 |  |  |  |  |  |  |  |
 | Complaints_22_12 | ordered, factor | 2563 | 0.11 | 6 |  |  | 812.00 | None of the time |  | 0.76 |  |  |  |  |  |  |  |
 | Complaints_23_12 | ordered, factor | 2508 | 0.12 | 6 |  |  | 790.00 | A little of the time |  | 0.78 |  |  |  |  |  |  |  |
-| Absence_workfreq_12 | integer | 887 | 0.69 | 25 | 2.98 | 2.00 | 2.00 |  | 11.58 |  | 0.00 | 260.00 | 260.00 | 15.59 | 94.96 | 297.02 | 905.37 |
 | Absence_workdays_12 | numeric | 900 | 0.69 | 61 | 14.06 | 5.00 | 5.00 |  | 34.54 |  | 0.00 | 500.00 | 500.00 | 6.94 | 42.58 | 67.15 | 206.17 |
-| Absence_illness_12 | factor | 2614 | 0.09 | 3 |  |  | 1664.00 | No |  | 0.46 |  |  |  |  |  |  |  |
 | Breadwinner_12 | factor | 2757 | 0.04 | 4 |  |  | 1660.00 | My partner |  | 0.56 |  |  |  |  |  |  |  |
 | Childcare_6mPP | factor | 1369 | 0.52 | 3 |  |  | 1496.00 |  |  | 0.28 |  |  |  |  |  |  |  |
 | Compressedwork_6mPP | factor | 1369 | 0.52 | 5 |  |  | 1496.00 |  |  | 0.34 |  |  |  |  |  |  |  |
@@ -298,9 +287,7 @@ The data contains 2865 cases and 619 variables.
 | Parentalleave_1y6mPP | factor | 1093 | 0.62 | 5 |  |  | 1772.00 |  |  | 0.67 |  |  |  |  |  |  |  |
 | Parentalleave_2yPP | factor | 734 | 0.74 | 5 |  |  | 2131.00 |  |  | 0.66 |  |  |  |  |  |  |  |
 | Parentalleave_2y6mPP | factor | 925 | 0.68 | 5 |  |  | 1940.00 |  |  | 0.66 |  |  |  |  |  |  |  |
-| Parentalleave_3yPP | factor | 114 | 0.96 | 5 |  |  | 2751.00 |  |  | 0.63 |  |  |  |  |  |  |  |
 | Parentalleave_3y6mPP | factor | 484 | 0.83 | 5 |  |  | 2381.00 |  |  | 0.66 |  |  |  |  |  |  |  |
-| Parentalleave_4y6mPP | factor | 279 | 0.90 | 5 |  |  | 2586.00 |  |  | 0.57 |  |  |  |  |  |  |  |
 | Plannedmatleave_8wPP | factor | 2164 | 0.24 | 3 |  |  | 1806.00 | Yes |  | 0.28 |  |  |  |  |  |  |  |
 | Returntowork_8wPP | numeric | 2045 | 0.29 | 52 | 14.82 | 14.00 | 14.00 |  | 4.75 |  | 0.00 | 60.00 | 60.00 | 1.91 | 17.61 | 12.32 | 56.93 |
 | Subsidy_6mPP | factor | 1369 | 0.52 | 3 |  |  | 1496.00 |  |  | 0.45 |  |  |  |  |  |  |  |
@@ -326,8 +313,6 @@ The data contains 2865 cases and 619 variables.
 | Work_3yPP | factor | 703 | 0.75 | 3 |  |  | 2162.00 |  |  | 0.11 |  |  |  |  |  |  |  |
 | Work_3y6mPP | factor | 532 | 0.81 | 3 |  |  | 2333.00 |  |  | 0.13 |  |  |  |  |  |  |  |
 | Work_4yPP | factor | 354 | 0.88 | 3 |  |  | 2511.00 |  |  | 0.15 |  |  |  |  |  |  |  |
-| Work_4y6mPP | factor | 279 | 0.90 | 3 |  |  | 2586.00 |  |  | 0.15 |  |  |  |  |  |  |  |
-| Work_5yPP | factor | 183 | 0.94 | 3 |  |  | 2682.00 |  |  | 0.15 |  |  |  |  |  |  |  |
 | Workduringpreg_8wPP | factor | 2168 | 0.24 | 3 |  |  | 1928.00 | No |  | 0.20 |  |  |  |  |  |  |  |
 | Workpartner_12 | factor | 2671 | 0.07 | 3 |  |  | 2636.00 | Yes |  | 0.03 |  |  |  |  |  |  |  |
 | Workpartner_8wPP | factor | 2293 | 0.20 | 4 |  |  | 2258.00 | Yes |  | 0.03 |  |  |  |  |  |  |  |
@@ -468,24 +453,6 @@ The data contains 2865 cases and 619 variables.
 | DAS_20_4yPP | ordered, factor | 344 | 0.88 | 5 |  |  | 2521.00 |  |  | 0.47 |  |  |  |  |  |  |  |
 | DAS_21_4yPP | ordered, factor | 344 | 0.88 | 6 |  |  | 2521.00 |  |  | 0.56 |  |  |  |  |  |  |  |
 | DAS_22_4yPP | ordered, factor | 344 | 0.88 | 6 |  |  | 2521.00 |  |  | 0.56 |  |  |  |  |  |  |  |
-| DAS_31_4y6mPP | ordered, factor | 275 | 0.90 | 8 |  |  | 2590.00 |  |  | 0.72 |  |  |  |  |  |  |  |
-| DAS_18_4y6mPP | ordered, factor | 275 | 0.90 | 7 |  |  | 2590.00 |  |  | 0.62 |  |  |  |  |  |  |  |
-| DAS_19_4y6mPP | ordered, factor | 275 | 0.90 | 6 |  |  | 2590.00 |  |  | 0.58 |  |  |  |  |  |  |  |
-| DAS_23_4y6mPP | ordered, factor | 275 | 0.90 | 6 |  |  | 2590.00 |  |  | 0.44 |  |  |  |  |  |  |  |
-| DAS_16_4y6mPP | ordered, factor | 275 | 0.90 | 6 |  |  | 2590.00 |  |  | 0.47 |  |  |  |  |  |  |  |
-| DAS_17_4y6mPP | ordered, factor | 275 | 0.90 | 6 |  |  | 2590.00 |  |  | 0.67 |  |  |  |  |  |  |  |
-| DAS_20_4y6mPP | ordered, factor | 275 | 0.90 | 5 |  |  | 2590.00 |  |  | 0.50 |  |  |  |  |  |  |  |
-| DAS_21_4y6mPP | ordered, factor | 275 | 0.90 | 6 |  |  | 2590.00 |  |  | 0.57 |  |  |  |  |  |  |  |
-| DAS_22_4y6mPP | ordered, factor | 275 | 0.90 | 6 |  |  | 2590.00 |  |  | 0.59 |  |  |  |  |  |  |  |
-| DAS_31_5yPP | ordered, factor | 181 | 0.94 | 7 |  |  | 2684.00 |  |  | 0.69 |  |  |  |  |  |  |  |
-| DAS_18_5yPP | ordered, factor | 181 | 0.94 | 6 |  |  | 2684.00 |  |  | 0.66 |  |  |  |  |  |  |  |
-| DAS_19_5yPP | ordered, factor | 181 | 0.94 | 6 |  |  | 2684.00 |  |  | 0.62 |  |  |  |  |  |  |  |
-| DAS_23_5yPP | ordered, factor | 181 | 0.94 | 6 |  |  | 2684.00 |  |  | 0.45 |  |  |  |  |  |  |  |
-| DAS_16_5yPP | ordered, factor | 181 | 0.94 | 5 |  |  | 2684.00 |  |  | 0.47 |  |  |  |  |  |  |  |
-| DAS_17_5yPP | ordered, factor | 181 | 0.94 | 6 |  |  | 2684.00 |  |  | 0.66 |  |  |  |  |  |  |  |
-| DAS_20_5yPP | ordered, factor | 181 | 0.94 | 5 |  |  | 2684.00 |  |  | 0.50 |  |  |  |  |  |  |  |
-| DAS_21_5yPP | ordered, factor | 181 | 0.94 | 6 |  |  | 2684.00 |  |  | 0.56 |  |  |  |  |  |  |  |
-| DAS_22_5yPP | ordered, factor | 181 | 0.94 | 6 |  |  | 2684.00 |  |  | 0.57 |  |  |  |  |  |  |  |
 | PRS_1_8wPP | ordered, factor | 2292 | 0.20 | 6 |  |  | 961.00 | Very true |  | 0.67 |  |  |  |  |  |  |  |
 | PRS_2_8wPP | ordered, factor | 2292 | 0.20 | 6 |  |  | 1171.00 | Completely true |  | 0.59 |  |  |  |  |  |  |  |
 | PRS_3_8wPP | ordered, factor | 2292 | 0.20 | 6 |  |  | 1063.00 | Very true |  | 0.65 |  |  |  |  |  |  |  |
@@ -531,24 +498,6 @@ The data contains 2865 cases and 619 variables.
 | PRS_3_4yPP | ordered, factor | 344 | 0.88 | 6 |  |  | 2521.00 |  |  | 0.64 |  |  |  |  |  |  |  |
 | PRS_4_4yPP | ordered, factor | 344 | 0.88 | 5 |  |  | 2521.00 |  |  | 0.67 |  |  |  |  |  |  |  |
 | PRS_5_4yPP | ordered, factor | 344 | 0.88 | 6 |  |  | 2521.00 |  |  | 0.65 |  |  |  |  |  |  |  |
-| PRS_1_4y6mPP | ordered, factor | 275 | 0.90 | 6 |  |  | 2590.00 |  |  | 0.65 |  |  |  |  |  |  |  |
-| PRS_2_4y6mPP | ordered, factor | 275 | 0.90 | 6 |  |  | 2590.00 |  |  | 0.64 |  |  |  |  |  |  |  |
-| PRS_3_4y6mPP | ordered, factor | 275 | 0.90 | 6 |  |  | 2590.00 |  |  | 0.67 |  |  |  |  |  |  |  |
-| PRS_4_4y6mPP | ordered, factor | 275 | 0.90 | 5 |  |  | 2590.00 |  |  | 0.66 |  |  |  |  |  |  |  |
-| PRS_5_4y6mPP | ordered, factor | 275 | 0.90 | 6 |  |  | 2590.00 |  |  | 0.66 |  |  |  |  |  |  |  |
-| PRS_1_5yPP | ordered, factor | 181 | 0.94 | 6 |  |  | 2684.00 |  |  | 0.66 |  |  |  |  |  |  |  |
-| PRS_2_5yPP | ordered, factor | 181 | 0.94 | 5 |  |  | 2684.00 |  |  | 0.61 |  |  |  |  |  |  |  |
-| PRS_3_5yPP | ordered, factor | 181 | 0.94 | 5 |  |  | 2684.00 |  |  | 0.64 |  |  |  |  |  |  |  |
-| PRS_4_5yPP | ordered, factor | 181 | 0.94 | 6 |  |  | 2684.00 |  |  | 0.67 |  |  |  |  |  |  |  |
-| PRS_5_5yPP | ordered, factor | 181 | 0.94 | 6 |  |  | 2684.00 |  |  | 0.66 |  |  |  |  |  |  |  |
-| AIR_10_1y6mPP | ordered, factor | 218 | 0.92 | 6 |  |  | 2647.00 |  |  | 0.68 |  |  |  |  |  |  |  |
-| AIR_11_1y6mPP | ordered, factor | 218 | 0.92 | 6 |  |  | 2647.00 |  |  | 0.75 |  |  |  |  |  |  |  |
-| AIR_13_1y6mPP | ordered, factor | 218 | 0.92 | 6 |  |  | 2647.00 |  |  | 0.78 |  |  |  |  |  |  |  |
-| Rolegender_1_1y6mPP | ordered, factor | 218 | 0.92 | 7 |  |  | 2647.00 |  |  | 0.75 |  |  |  |  |  |  |  |
-| Rolegender_2_1y6mPP | ordered, factor | 218 | 0.92 | 7 |  |  | 2647.00 |  |  | 0.76 |  |  |  |  |  |  |  |
-| Rolegender_3_1y6mPP | ordered, factor | 218 | 0.92 | 6 |  |  | 2647.00 |  |  | 0.72 |  |  |  |  |  |  |  |
-| Rolegender_5_1y6mPP | ordered, factor | 218 | 0.92 | 6 |  |  | 2647.00 |  |  | 0.77 |  |  |  |  |  |  |  |
-| Rolegender_4_1y6mPP | ordered, factor | 218 | 0.92 | 6 |  |  | 2647.00 |  |  | 0.52 |  |  |  |  |  |  |  |
 | MSPSS_3_20 | ordered, factor | 2084 | 0.27 | 8 |  |  | 1038.00 | Very strongly agree |  | 0.63 |  |  |  |  |  |  |  |
 | MSPSS_4_20 | ordered, factor | 2088 | 0.27 | 8 |  |  | 973.00 | Very strongly agree |  | 0.66 |  |  |  |  |  |  |  |
 | MSPSS_6_20 | ordered, factor | 2090 | 0.27 | 8 |  |  | 776.00 | Very strongly agree |  | 0.71 |  |  |  |  |  |  |  |
@@ -585,17 +534,6 @@ The data contains 2865 cases and 619 variables.
 | Lifeevent_3y6mPP | factor | 570 | 0.80 | 3 |  |  | 2295.00 |  |  | 0.32 |  |  |  |  |  |  |  |
 | Lifeevent_4yPP | factor | 375 | 0.87 | 3 |  |  | 2490.00 |  |  | 0.27 |  |  |  |  |  |  |  |
 | Lifeevent_4y6mPP | factor | 294 | 0.90 | 3 |  |  | 2571.00 |  |  | 0.26 |  |  |  |  |  |  |  |
-| Lifeevent_5yPP | factor | 191 | 0.93 | 3 |  |  | 2674.00 |  |  | 0.20 |  |  |  |  |  |  |  |
-| Lifeeventrate_6mPP | factor | 0 | 1.00 | 1 |  |  | 2865.00 |  |  |  |  |  |  |  |  |  |  |
-| Lifeeventrate_1yPP | factor | 6 | 1.00 | 2 |  |  | 2859.00 |  |  | 0.00 |  |  |  |  |  |  |  |
-| Lifeeventrate_1y6mPP | factor | 40 | 0.99 | 4 |  |  | 2825.00 |  |  | 0.40 |  |  |  |  |  |  |  |
-| Lifeeventrate_2yPP | factor | 73 | 0.97 | 4 |  |  | 2792.00 |  |  | 0.50 |  |  |  |  |  |  |  |
-| Lifeeventrate_2y6mPP | factor | 94 | 0.97 | 4 |  |  | 2771.00 |  |  | 0.47 |  |  |  |  |  |  |  |
-| Lifeeventrate_3yPP | factor | 77 | 0.97 | 4 |  |  | 2788.00 |  |  | 0.29 |  |  |  |  |  |  |  |
-| Lifeeventrate_3y6mPP | factor | 67 | 0.98 | 4 |  |  | 2798.00 |  |  | 0.45 |  |  |  |  |  |  |  |
-| Lifeeventrate_4yPP | factor | 46 | 0.98 | 4 |  |  | 2819.00 |  |  | 0.33 |  |  |  |  |  |  |  |
-| Lifeeventrate_4y6mPP | factor | 38 | 0.99 | 4 |  |  | 2827.00 |  |  | 0.35 |  |  |  |  |  |  |  |
-| Lifeeventrate_5yPP | factor | 20 | 0.99 | 3 |  |  | 2845.00 |  |  | 0.10 |  |  |  |  |  |  |  |
 | Lengthbaby_healthcentre_8wPP | numeric | 2182 | 0.24 | 119 | 53.58 | 54.00 | 54.00 |  | 2.95 |  | 33.50 | 75.00 | 41.50 | -1.07 | -10.22 | 7.00 | 33.43 |
 | Lengthbaby_8wPP | numeric | 783 | 0.73 | 31 | 50.14 | 50.00 | 50.00 |  | 2.70 |  | 38.00 | 60.00 | 22.00 | -0.40 | -2.30 | 1.55 | 4.45 |
 | Medicationbaby_8wPP | factor | 2395 | 0.16 | 3 |  |  | 1718.00 | No |  | 0.41 |  |  |  |  |  |  |  |
@@ -611,7 +549,6 @@ The data contains 2865 cases and 619 variables.
 | Dayscrying_8wPP | ordered, factor | 538 | 0.81 | 6 |  |  | 2327.00 |  |  | 0.73 |  |  |  |  |  |  |  |
 | Frequencycrying_8wPP | ordered, factor | 2378 | 0.17 | 6 |  |  | 1278.00 | Sometimes |  | 0.63 |  |  |  |  |  |  |  |
 | Hourscrying_8wPP | factor | 2377 | 0.17 | 3 |  |  | 1956.00 | No |  | 0.29 |  |  |  |  |  |  |  |
-| NH_Crybaby_8wPP | factor | 139 | 0.95 | 4 |  |  | 2726.00 |  |  | 0.21 |  |  |  |  |  |  |  |
 | Complicaties_zwangerschap_OBS | factor | 2744 | 0.04 | 3 |  |  | 1399.00 | No |  | 0.50 |  |  |  |  |  |  |  |
 | Verdenking_intra_uteriene_groeivertraging_OBS | factor | 2733 | 0.05 | 3 |  |  | 2532.00 | No |  | 0.14 |  |  |  |  |  |  |  |
 | Verwijzing_zwangerschap_OBS | integer | 2743 | 0.04 | 4 | 0.54 | 1.00 | 1.00 |  | 1.78 |  | 0.00 | 90.00 | 90.00 | 46.25 | 494.68 | 2321.07 | 12418.28 |

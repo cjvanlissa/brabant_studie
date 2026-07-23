@@ -1,0 +1,188 @@
+---
+title             : "Dashboard: Predicting Postpartum Relationship Satisfaction Collapse"
+bibliography      : ["brabant_study.bib"]
+output            : 
+  bookdown::html_document2:
+    toc: true
+---
+
+```{r setup, include = FALSE}
+mask = TRUE
+# this does nothing for apa_table:
+options(knitr.kable.NA = '')
+knitr::opts_chunk$set(
+  echo = FALSE
+)
+library(DT)
+library(bookdown)
+library(targets)
+library(worcs)
+# library(targets)
+# tar_load(output_paper)
+# To make svg work, use this and 
+# header-includes:
+#   - \usepackage{svg}
+#options(tinytex.engine_args = '--shell-escape')
+```
+
+```{r}
+tar_load(tab_descriptives)
+tar_load(df_anal)
+tar_load(df_features)
+interp <- readxl::excel_sheets("Copy of Brabant Study Data Selection_Predictors of New Parents RQ_MvS_cj.xlsx")
+interp <- lapply(interp[-1], function(s){
+  tmp = readxl::read_excel("Copy of Brabant Study Data Selection_Predictors of New Parents RQ_MvS_cj.xlsx", sheet = s)
+  tmp <- tmp[, c(pmatch("variable", tolower(names(tmp))), pmatch("explanation", tolower(names(tmp))))]
+  names(tmp) <- c("Variable", "Interpretation")
+  tmp
+})
+desc <- descriptives(df_anal[, names(df_features)])
+interp <- do.call(rbind, interp)
+keep <- gsub("_.+?$", "", desc$name)
+interp <- interp[match(keep, interp$Variable), ]
+desc$Interpretation <- interp$Interpretation
+
+desc$unique <- desc$unique-1L
+desc_cat <- desc
+desc_cat$mode_prop <- desc_cat$mode/desc_cat$n
+desc_cat$mode <- desc_cat$mode_value
+
+desc_cat <- desc_cat[!desc$type == "numeric", c("name", "n", "unique", "mode", "mode_prop", "v", "Interpretation")
+]
+
+desc_num <- desc[desc$type == "numeric" & !desc$name %in% tab_descriptives$variable, c("name", "n", "mean", "sd", "min", "max", "skew", "kurt", "Interpretation")]
+desc_scl <- desc[desc$name %in% tab_descriptives$variable, c("name", "n", "mean", "sd", "min", "max", "skew", "kurt", "Interpretation")]
+names(tab_descriptives)[1] <- "name"
+desc_scl <- merge(desc_scl, tab_descriptives, by = "name", all.x = TRUE)
+names(desc_scl)
+desc_scl <- desc_scl[, c("name", "n", "items", "mean", "sd", "min", "max", "skew", 
+"kurt", "cfi", "tli", "comp_rel", "Interpretation")]
+
+# INvariance
+tab_invar <- read.csv("tab_cfa_dv.csv", stringsAsFactors = FALSE)
+tab_invar$Name <- c("Configural", "Metric", "Strict")
+tab_invar[["rmsea"]] <- NULL
+```
+
+
+# Method
+
+The Workflow for Open Reproducible Code in Science (WORCS) was used to create a reproducible research archive [@vanlissaWORCSWorkflowOpen2020].
+All analysis code, supplemental materials and synthetic data are available at <https://github.com/cjvanlissa/brabant_studie>.
+The original data and all study documentation are available under controlled access.
+
+
+## Participants and procedure
+
+Participants were `r max(desc[["n"]])` expecting mothers enrolled in the Brabant Study.
+
+## Measures
+
+We conducted confirmatory factor analysis for all multi-item scales.
+For the dependent variable, we additionally conducted invariance tests across waves.
+<!-- lavPredict(method = "EBM"), for Empirical Bayes Modal approach -->
+We considered CFI > .95 and TLI > .95 to indicate good model fit [@huCutoffCriteriaFit1999].
+We further computed composite reliability for each scale [REF Green and Yang 2009], see Table \@ref(tab:tabmeasinvar).
+Note that model fit for all models was approximately equivalent, with no evidence that strict measurement invariance was violated.
+
+```{r tabmeasinvar, results='asis'}
+library(DT)
+DT::datatable(tab_invar, 
+              #caption = "",  
+              options = list(pageLength = nrow(tab_invar)), rownames= FALSE, escape = FALSE) |>
+  formatRound(columns = c(3, 5:7))
+
+cat("<p>","<table width=100%>", paste0("<caption>",
+                      "(#tab:tabmeasinvar)",
+                      "CFAs for dependent variable DAS",
+                      "</caption>"),
+                      "</table>", "</p>", sep ="\n")
+```
+
+### Predictors
+
+
+
+We included `r nrow(desc)-10L` predictors.
+Table \@ref(tab:tabcat) shows descriptive statistics for categorical variables, \@ref(tab:tabnum) for continuous variables,
+and \@ref(tab:tabscal) for multi-item scales.
+
+```{r tabcat, results="asis"}
+library(DT)
+DT::datatable(desc_cat,  options = list(pageLength = 67), rownames= FALSE) |>
+  formatRound(columns = c(5, 6))
+cat("<p>","<table width=100%>", paste0("<caption>",
+                      "(#tab:tabcat)",
+                      "Categorical predictor descriptive statistics. Unique: unique values, including missing. Mode: most common value. Mode_prop: proportion of cases with the mode value. V: categorical variable dispersion (similar to standard deviation for continuous variables).",
+                      "</caption>"),
+                      "</table>", "</p>", sep ="\n")
+```
+
+```{r tabnum, results="asis"}
+DT::datatable(desc_num,  options = list(pageLength = 67), rownames= FALSE) |>
+  formatRound(columns = c(3:8))
+cat("<p>","<table width=100%>", paste0("<caption>",
+                      "(#tab:tabnum)",
+                      "Numeric predictor descriptive statistics.",
+                      "</caption>"),
+                      "</table>", "</p>", sep ="\n")
+```
+
+
+
+```{r tabscal, results="asis"}
+desc_scl$comp_rel <- as.numeric(desc_scl$comp_rel)
+DT::datatable(desc_scl,
+              options = list(pageLength = nrow(desc_scl)), rownames= FALSE) |>
+  formatRound(columns = c(4:13))
+cat("<p>","<table width=100%>", paste0("<caption>",
+                      "(#tab:tabscal)",
+                      "Scale predictor descriptive statistics.",
+                      "</caption>"),
+                      "</table>", "</p>", sep ="\n")
+```
+
+
+## Results
+
+### Variable Importance
+
+Variable importance for a specific predictor is defined as the decrease in model fit that occurs when randomly shuffling the values of that predictor, thus breaking its association with the focal parameter. If a predictor was important, then the model fit should become worse when it is shuffled. To obtain an unbiased estimate, variable importance is computed based on observations not included in each tree's bootstrap sample, and then averaged across trees.
+
+The Figure below show the permutation importance for all predictors whose importance exceeded 0.
+
+```{r}
+tar_load(vimps_plots)
+plot(vimps_plots)
+```
+
+<!-- The Figure below shows the rank-ordered variable importance for all predictors and predictors, ordered by average importance of the predictor across all predictors. -->
+<!-- I think it's a bit chaotic, but it gives a sense of - on average - which predictors are most important. -->
+<!-- Note that rank-order of 1 corresponds to the highest permutation importance in the figure above. -->
+
+<!-- ```{r} -->
+<!-- knitr::include_graphics("vim_combined_plot.svg") -->
+<!-- ``` -->
+
+
+## Marginal Association
+
+Shape of association is determined as follows: First, take a sequence of potential values for that predictor at which to determine the predicted value for the focal parameter. We used 20 evenly spaced values for continuous predictors, and all categories of nominal predictors. We used Monte Carlo integration to average over the effect of all other predictors.
+Specifically, we calculated the focal parameter value at a specific value of the predictor, for all cases in the dataset.
+By taking the median predicted value for the focal parameter across all cases, we average out the effect of other predictors. 
+Variable importance plots show the change in the focal parameter along this grid of predictor values.
+
+Additionally, we classified the shapes of association into (monotonously) increasing, decreasing, convave, convex, step function(up and down), logistic (S-shaped), and "other".
+We used BIC to select the shape that best balanced fit and complexity.
+
+
+
+## All Partial Dependence Plots
+
+```{r, results = 'asis'}
+f = list.files(pattern = "^pdp.+svg$")
+
+cat(paste0("### ", gsub("^pdp_(.+?)\\.svg", "\\1", f), " {-}\n\n![](" , f, ")\n\n", collapse = ""))
+```
+
+

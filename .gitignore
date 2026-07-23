@@ -17,3 +17,6 @@ df.csv
 *.xlsx#
 ^\.RData
 .RData
+!dict.rdata
+_targets/
+*.RData

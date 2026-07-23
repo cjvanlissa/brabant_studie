@@ -14,9 +14,13 @@ data:
   df.csv:
     save_expression: write.csv(x = data, file = filename, row.names = FALSE)
     load_expression: read.csv(file = filename, stringsAsFactors = TRUE)
-    codebook: codebook_df.Rmd
+    codebook: codebook_df.rmd
     labels: value_labels_df.yml
+  dict.rdata:
+    save_expression: saveRDS(dict, "dict.RData")
+    load_expression: readRDS("dict.RData")
 checksums:
   dict.RData: 2e517c8bc2599c480258dffd3a836960
-  desc.csv: ce754b0084c3c18a41a165f6cf81bab4
-  df.csv: ea90dcb0573f4a7e33c43cef26825226
+  desc.csv: 3778d047c35291e9cc0c391db1ebd84d
+  df.csv: 5c9d37425a79a7234b50eceab355c119
+  dict.rdata: cc3a89f14e7a2d464a4b1e3f98887b60
