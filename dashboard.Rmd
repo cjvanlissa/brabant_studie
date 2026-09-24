@@ -182,7 +182,9 @@ We used BIC to select the shape that best balanced fit and complexity.
 ## All Partial Dependence Plots
 
 ```{r, results = 'asis'}
-f = list.files(pattern = "^pdp.+svg$")
+tar_load(pdps_curve_plots)
+f = gsub("RData", "svg", pdps_curve_plots$filename, fixed = T)
+f = gsub("pdp_", "pdp_plot_", f, fixed = T)
 
 cat(paste0("### ", gsub("^pdp_(.+?)\\.svg", "\\1", f), " {-}\n\n![](" , f, ")\n\n", collapse = ""))
 ```
