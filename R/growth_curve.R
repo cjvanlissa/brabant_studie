@@ -35,16 +35,16 @@ names(models) <- apply(expand.grid("int", names(slope), names(step)), 1, paste0,
 models <- lapply(models, c, paste0(names(df), " ~~ NA*", names(df)))
 models <- lapply(models, c, paste0(names(df), " ~ 0*1"))
 
-models <- lapply(models, function(x){
-  vs <- lavaan:::lavNames(x, type = "lv")
-  if(length(vs) > 1){
-    cs <- tidySEM:::syntax_cor_lavaan(vs, generic_label = T)
-    return(c(x, cs ))
-    #gsub("c\\d{1,}", "0", cs)))
-  } else {
-    return(x)
-  }
-})
+# models <- lapply(models, function(x){
+#   vs <- lavaan:::lavNames(x, type = "lv")
+#   if(length(vs) > 1){
+#     cs <- tidySEM:::syntax_cor_lavaan(vs, generic_label = T)
+#     return(c(x, cs ))
+#     #gsub("c\\d{1,}", "0", cs)))
+#   } else {
+#     return(x)
+#   }
+# })
 
 models <- lapply(models, function(x){
   vs <- lavaan:::lavNames(x, type = "lv")

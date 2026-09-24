@@ -15,7 +15,7 @@ plant_forests <- function(df_features, growth_model){
   controls$semtree.control$exclude.heywood <- TRUE
 
   # Set constraints ---------------------------------------------------------
-  cnst <- semtree.constraints(focus.parameters = "m_step")
+  cnst <- semtree.constraints(focus.parameters = c("m_i", "m_s", "m_step"))
 
   names(df_features)[grep("^DAS_", names(df_features))] <- paste0("DAS", seq_along(grep("^DAS_", names(df_features))))
   df_features[c("DAS11", "DAS12")] <- NULL
@@ -146,7 +146,7 @@ merge_forests <- function(fn_forests){
     cl <- makeCluster(30)
     registerDoSNOW(cl)
     plan(multisession)
-    res_light <- semtree::strip(res_rf, parameters = "m_step")
+    res_light <- semtree::strip(res_rf, parameters = c("m_i", "m_s", "m_step"))
     saveRDS(res_light, paste0("forest_light", fnam))
     rm(res_rf)
     rm(res_light)
@@ -194,10 +194,11 @@ aggregate_vim <- function(fn_merged){
 plot_vimps <- function(pdps){
   library(svglite)
   library(ggplot2)
-    pdps <- pdps[pdps$out > 0,]
+
+
     #pdps$Variable <- gsub("_\\d{1,}$", "", pdps$Variable)
-    pdps$label <- factor(pdps$shapes,
-                         levels = c("positive", "negative", "convex", "concave", "step_up", "step_down", "rev_sigmoid", "other"),
+    pdps$label <- factor(pdps$shape,
+                         levels = c("Positive", "Negative", "convex", "concave", "step_up", "step_down", "rev_sigmoid", "Other"),
                          labels = c("p", "n", "cv", "cn", "su", "sd", "rs", "o"))
     pdps$Variable <- factor(pdps$Variable, levels = rev(pdps$Variable))
     p = ggplot(pdps, aes(x = out, y = Variable, label = label)) +
@@ -348,7 +349,7 @@ create_pdp <- function(merged_summarydata, df_features, vimps){
   plan(multisession)
   forest <- readRDS(merged_summarydata$forest_light)
 
-  shapes <- foreach(thisrep = 1:nrow(vimps), .packages = c("semtree"), .export = "do_detect_shape", .combine = "c") %dopar% {
+  shapes <- foreach(thisrep = 1:nrow(vimps), .packages = c("semtree"), .export = "do_detect_shape", .combine = "rbind") %dopar% {
     #attach(summarydata[thisrep, ]) # Select thisrep-th non-run chunk
     # Set random seed
     .Random.seed <- vimps$seed[[thisrep]]
@@ -363,7 +364,7 @@ create_pdp <- function(merged_summarydata, df_features, vimps){
         list(NULL)
       }
       saveRDS(pdp, fnam)
-      shap <- do_detect_shape(pdp$samples)
+      shap <- sapply(seq_along(pdp$samples)[-1], function(i){do_detect_shape(as.data.frame(pdp$samples)[, c(1,i)])})
       shap
     }
     rm(forest)
@@ -374,7 +375,7 @@ create_pdp <- function(merged_summarydata, df_features, vimps){
   parallel::stopCluster(cl)
   rm(cl)
   vimps$filename <- paste0("pdp_", vimps$Variable, ".RData")
-  vimps$shapes <- shapes
+  vimps <- data.frame(vimps, shapes)
   attr(vimps, "date") <- as.character(Sys.time())
   return(vimps)
 }

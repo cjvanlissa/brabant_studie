@@ -52,12 +52,16 @@ list(
     command = create_pdp(merged_summarydata, df_features, vimps)
   )
   , tar_target(
-    name = pdps_plots,
-    command = plot_pdps(pdps)
+    name = pdps_curve_plots,
+    command = plot_pdp_curves(pdps, df_features, growth_model)
+  )
+  , tar_target(
+    name = r2s,
+    command = calc_r2s(merged_summarydata, growth_model, df_features)
   )
   , tar_target(
     name = vimps_plots,
-    command = plot_vimps(pdps)
+    command = plot_vimps(pdps_curve_plots)
   )
   , tarchetypes::tar_render(manuscript, "dashboard.Rmd", cue = tar_cue("always"), priority = 0.5)
   , tar_file (
